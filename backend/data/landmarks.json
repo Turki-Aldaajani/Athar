@@ -72,14 +72,14 @@
       "reference_images": [
         {
           "url": "/images/turaif-1.jpg",
-          "caption_ar": "حي الدرعية التراثي — يضم قصر سلوى",
-          "caption_en": "Historic Diriyah — home of Salwa Palace",
+          "caption_ar": "حي الدرعية التراثي — موقع قصر سلوى",
+          "caption_en": "Historic Diriyah — site of Salwa Palace",
           "source": "Wikimedia Commons"
         },
         {
-          "url": "/images/salwa2.jpg",
-          "caption_ar": "قصر سلوى — رمز الحضارة النجدية",
-          "caption_en": "Salwa Palace — symbol of Najdi civilization",
+          "url": "/images/bujairi_scene.jpg",
+          "caption_ar": "مشهد تراثي من ضفاف وادي حنيفة",
+          "caption_en": "Heritage scene from Wadi Hanifa banks",
           "source": "Athar Heritage"
         }
       ]
@@ -148,9 +148,15 @@
       ],
       "reference_images": [
         {
-          "url": "/images/masmak.jpg",
-          "caption_ar": "قصر المصمك — شاهد على توحيد المملكة",
-          "caption_en": "Al-Masmak Fortress — witness to the Kingdom's unification",
+          "url": "/images/masmak_real.jpg",
+          "caption_ar": "قصر المصمك — الحصن التاريخي في الرياض",
+          "caption_en": "Al-Masmak Fortress — historic fort in Riyadh",
+          "source": "Wikimedia Commons"
+        },
+        {
+          "url": "/images/riyadh_scene.jpg",
+          "caption_ar": "صورة فنية تراثية لقلاع نجد",
+          "caption_en": "Artistic heritage view of Najdi fortresses",
           "source": "Athar Heritage"
         }
       ]
@@ -763,14 +769,14 @@
       "reference_images": [
         {
           "url": "/images/turaif-1.jpg",
-          "caption_ar": "البجيري والدرعية — تاريخ على ضفاف وادي حنيفة",
-          "caption_en": "Bujairi and Diriyah — history on the banks of Wadi Hanifa",
+          "caption_ar": "الدرعية — البجيري والطريف وجهان لعملة واحدة",
+          "caption_en": "Diriyah — Bujairi and Turaif are two sides of one coin",
           "source": "Wikimedia Commons"
         },
         {
-          "url": "/images/bujairi.jpg",
-          "caption_ar": "حي البجيري — مقابل حي الطريف التاريخي",
-          "caption_en": "Bujairi District — opposite the historic At-Turaif",
+          "url": "/images/bujairi_scene.jpg",
+          "caption_ar": "مشهد ليلي تراثي من البجيري",
+          "caption_en": "Heritage night scene from Al-Bujairi",
           "source": "Athar Heritage"
         }
       ]
