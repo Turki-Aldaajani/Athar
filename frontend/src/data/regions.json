@@ -143,50 +143,61 @@
         "id": "qasab",
         "name_ar": "القصب",
         "name_en": "Al-Qasab",
-        "tagline_ar": "واجهة التراث النجدي الحي",
-        "tagline_en": "Living Najdi Heritage Showcase",
+        "tagline_ar": "مدينة الذهب الأبيض",
+        "tagline_en": "City of White Gold",
         "hero_image": "/images/qasab_real.jpg",
         "color": "#0a2e1a",
-        "overview_ar": "القصب مدينة تراثية تقع شمال غرب الرياض في منطقة القصيم، تشتهر بقلعتها الطينية التاريخية وبيوتها العريقة. تمثل نموذجاً حياً لعمارة البادية النجدية المتأثرة بالبيئة الجافة، وتضم معرضاً مفتوحاً من القصور والبيوت الطينية المرممة التي تستقبل الزوار للتعرف على أسلوب الحياة النجدي التقليدي.",
-        "overview_en": "Al-Qasab is a heritage city northwest of Riyadh in Qassim region, famous for its historic mud fort and ancient houses. It represents a living example of Najdi Bedouin architecture influenced by the arid environment, containing an open museum of restored mud palaces and houses.",
+        "overview_ar": "القصب مدينة تراثية تقع في منطقة الرياض، تشتهر ببيوتها الطينية العريقة وديرتها القديمة العامرة بالحرف والأسواق الأصيلة. تُعدّ القصب من أهم مصادر الملح في المملكة العربية السعودية، إذ تحتضن مملحة المقحم الشهيرة التي تمد المنطقة بالملح الطبيعي منذ قرون.",
+        "overview_en": "Al-Qasab is a heritage city in Riyadh region, known for its ancient mud houses and old quarter filled with crafts and authentic markets. Al-Qasab is considered one of the most important sources of salt in Saudi Arabia, home to the famous Al-Miqham salt flats that have supplied the region with natural salt for centuries.",
         "heritage_sites": [
           {
-            "name_ar": "القلعة الطينية",
-            "name_en": "Mud Fort",
-            "type_ar": "قلعة تاريخية",
-            "type_en": "Historic Fort",
-            "desc_ar": "قلعة طينية ضخمة تعود لعدة قرون، كانت تحمي المدينة وتمثل مقر الحاكم المحلي وخزائن المؤن",
-            "desc_en": "A massive mud fort dating back several centuries, protecting the city and serving as the local governor's residence and food storage",
-            "icon": "fort"
+            "name_ar": "سوق العبيدي التراثي",
+            "name_en": "Al-Ubaidi Traditional Market",
+            "type_ar": "سوق تراثي",
+            "type_en": "Traditional Market",
+            "desc_ar": "سوق عريق في قلب الديرة القديمة بالقصب، يضم الحرف اليدوية التقليدية والأدوات النجدية الأصيلة، ويُعدّ من أبرز معالم التراث العمراني في المنطقة",
+            "desc_en": "An ancient market in the heart of Al-Qasab's old quarter, featuring traditional handicrafts and authentic Najdi tools, considered one of the most prominent urban heritage landmarks in the region",
+            "icon": "storefront"
           },
           {
-            "name_ar": "الواجهة التراثية",
-            "name_en": "Heritage Facade",
-            "type_ar": "شارع تراثي",
-            "type_en": "Heritage Street",
-            "desc_ar": "ممشى تراثي يجمع بين البيوت الطينية المرممة والحرف اليدوية التقليدية والمطابخ النجدية الأصيلة",
-            "desc_en": "A heritage walkway combining restored mud houses, traditional handicrafts, and authentic Najdi kitchens",
-            "icon": "storefront"
+            "name_ar": "مملحة المقحم",
+            "name_en": "Al-Miqham Salt Flats",
+            "type_ar": "موقع طبيعي وتراثي",
+            "type_en": "Natural & Heritage Site",
+            "desc_ar": "من أشهر وأقدم مصادر الملح الطبيعي في المملكة العربية السعودية، وقد وفّرت مملحة المقحم الملح لمنطقة نجد وما جاورها لقرون طويلة مما جعل القصب محطة تجارية مهمة على طرق القوافل",
+            "desc_en": "One of the most famous and oldest natural salt sources in Saudi Arabia. Al-Miqham salt flats supplied Najd and surrounding regions with salt for centuries, making Al-Qasab an important commercial stop on caravan routes",
+            "icon": "water"
+          },
+          {
+            "name_ar": "الديرة القديمة",
+            "name_en": "Old Quarter (Al-Dirah)",
+            "type_ar": "حي تراثي",
+            "type_en": "Heritage District",
+            "desc_ar": "مركز المدينة التاريخي الذي يحتضن البيوت الطينية المرممة ومبنى القلعة والمساجد الأثرية، ويمثل نموذجاً حياً للعمارة النجدية التقليدية",
+            "desc_en": "The historic city center housing restored mud houses, the fort building, and ancient mosques, representing a living example of traditional Najdi architecture",
+            "icon": "fort"
           },
           {
             "name_ar": "معرض الحرف اليدوية",
             "name_en": "Handicrafts Exhibition",
             "type_ar": "معرض تراثي",
             "type_en": "Heritage Exhibition",
-            "desc_ar": "معرض يضم الحرف التقليدية كالنسيج والفخار وصناعة الأدوات الطينية والخشبية",
-            "desc_en": "Exhibition featuring traditional crafts including weaving, pottery, and mud and wood tool making",
+            "desc_ar": "معرض يضم الحرف التقليدية كالنسيج والفخار وصناعة الأدوات الطينية والخشبية وأدوات استخراج الملح الأثرية",
+            "desc_en": "Exhibition featuring traditional crafts including weaving, pottery, mud and wood tool making, and antique salt extraction tools",
             "icon": "handyman"
           }
         ],
         "cultural_notes_ar": [
+          "القصب من أهم مصادر الملح الطبيعي في السعودية بفضل مملحة المقحم الشهيرة",
+          "سوق العبيدي التراثي في الديرة القديمة يُجسّد روح التجارة النجدية الأصيلة",
           "سُمّي القصب نسبة لنبات القصب الذي كان يُستخدم في بناء الأسقف التقليدية",
-          "تُعدّ من أبرز وجهات السياحة الداخلية في المملكة خاصة في موسم الشتاء",
-          "الأكلات الشعبية النجدية كالجريش والمطازيز جزء أصيل من تراث المنطقة"
+          "تُعدّ من أبرز وجهات السياحة الداخلية خاصة في موسم الشتاء"
         ],
         "cultural_notes_en": [
+          "Al-Qasab is one of Saudi Arabia's most important natural salt sources, thanks to the famous Al-Miqham salt flats",
+          "Al-Ubaidi Traditional Market in the old quarter embodies the spirit of authentic Najdi commerce",
           "Al-Qasab is named after the reed plant used in building traditional roofs",
-          "It is one of the most prominent domestic tourism destinations especially in winter",
-          "Najdi popular foods like Jareesh and Mutabbaq are an authentic part of the region's heritage"
+          "It is one of the most prominent domestic tourism destinations, especially in winter"
         ]
       },
       {
