@@ -75,12 +75,6 @@
           "caption_ar": "حي الدرعية التراثي — موقع قصر سلوى",
           "caption_en": "Historic Diriyah — site of Salwa Palace",
           "source": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/bujairi_scene.jpg",
-          "caption_ar": "مشهد تراثي من ضفاف وادي حنيفة",
-          "caption_en": "Heritage scene from Wadi Hanifa banks",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -152,12 +146,6 @@
           "caption_ar": "قصر المصمك — الحصن التاريخي في الرياض",
           "caption_en": "Al-Masmak Fortress — historic fort in Riyadh",
           "source": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/riyadh_scene.jpg",
-          "caption_ar": "صورة فنية تراثية لقلاع نجد",
-          "caption_en": "Artistic heritage view of Najdi fortresses",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -229,12 +217,6 @@
           "caption_ar": "حي الطريف — موقع التراث العالمي لليونسكو",
           "caption_en": "At-Turaif District — UNESCO World Heritage Site",
           "source": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/salwa2.jpg",
-          "caption_ar": "جدران الطريف الطينية — أيقونة العمارة النجدية",
-          "caption_en": "Turaif mud-brick walls — icon of Najdi architecture",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -300,12 +282,6 @@
           "caption_ar": "الدرعية — مهد المملكة العربية السعودية",
           "caption_en": "Diriyah — cradle of Saudi Arabia",
           "source": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/imam-diwan.jpg",
-          "caption_ar": "ديوان الإمام — مركز الحكم والشريعة",
-          "caption_en": "Imam's Diwan — center of governance and law",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -371,14 +347,7 @@
           "event_en": "Inscription of Historic Jeddah on UNESCO World Heritage List"
         }
       ],
-      "reference_images": [
-        {
-          "url": "/images/nasif.jpg",
-          "caption_ar": "بيت نصيف — لؤلؤة جدة التاريخية",
-          "caption_en": "Nassif House — gem of historic Jeddah",
-          "source": "Athar Heritage"
-        }
-      ]
+      "reference_images": []
     },
     {
       "id": "hegra",
@@ -533,14 +502,7 @@
           "event_en": "Site listed among UNESCO World Heritage nomination candidates"
         }
       ],
-      "reference_images": [
-        {
-          "url": "/images/camel.jpg",
-          "caption_ar": "موقع نقش الجمل — منطقة الجوف",
-          "caption_en": "Camel Rock Art Site — Al-Jouf region",
-          "source": "Athar Heritage"
-        }
-      ]
+      "reference_images": []
     },
     {
       "id": "king-abdulaziz",
@@ -617,12 +579,6 @@
           "caption_ar": "الملك عبدالعزيز بن عبدالرحمن آل سعود",
           "caption_en": "King Abdulaziz ibn Abdulrahman Al Saud",
           "source": "Reference Image"
-        },
-        {
-          "url": "/images/abdulaziz2.jpg",
-          "caption_ar": "المؤسس — موحّد المملكة العربية السعودية عام 1932",
-          "caption_en": "The Founder — unified Saudi Arabia in 1932",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -772,12 +728,6 @@
           "caption_ar": "الدرعية — البجيري والطريف وجهان لعملة واحدة",
           "caption_en": "Diriyah — Bujairi and Turaif are two sides of one coin",
           "source": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/bujairi_scene.jpg",
-          "caption_ar": "مشهد ليلي تراثي من البجيري",
-          "caption_en": "Heritage night scene from Al-Bujairi",
-          "source": "Athar Heritage"
         }
       ]
     },
@@ -823,22 +773,8 @@
           "event_en": "Area included in natural tourism development initiatives under Vision 2030"
         }
       ],
-      "gallery_images": [
-        {
-          "url": "/images/edge_world_scene.jpg",
-          "caption_ar": "جرف حافة العالم — منظر غروب فوق الصحراء النجدية",
-          "caption_en": "Edge of the World escarpment — sunset view over the Najdi desert",
-          "source": "Athar Heritage"
-        }
-      ],
-      "reference_images": [
-        {
-          "url": "/images/edge_world_scene.jpg",
-          "caption_ar": "مشهد توضيحي لحافة العالم",
-          "caption_en": "Illustrative scene of Edge of the World",
-          "source": "Athar Heritage"
-        }
-      ],
+      "gallery_images": [],
+      "reference_images": [],
       "testimonials": [
         {
           "name_ar": "رحّالة سعودي",

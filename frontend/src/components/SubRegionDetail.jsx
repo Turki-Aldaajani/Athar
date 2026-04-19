@@ -2,13 +2,16 @@ import LanguageSwitcher from './LanguageSwitcher';
 
 export default function SubRegionDetail({ subRegion, regionName, onBack, lang, setLang }) {
   return (
-    <div className="min-h-screen bg-heritage-cream">
+    <div className="min-h-screen bg-heritage-cream" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <LanguageSwitcher lang={lang} setLang={setLang || (() => {})} />
 
       {/* Hero */}
       <div
         className="relative h-72 bg-cover bg-center"
-        style={{ backgroundImage: `url(${subRegion.hero_image})` }}
+        style={{
+          backgroundImage: subRegion.hero_image ? `url(${subRegion.hero_image})` : 'none',
+          backgroundColor: subRegion.hero_image ? 'transparent' : (subRegion.color || '#3d2a10'),
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
 

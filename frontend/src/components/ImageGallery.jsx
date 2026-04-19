@@ -10,13 +10,13 @@ export default function ImageGallery({ images, lang }) {
   const current = images[currentIndex];
 
   return (
-    <div className="rounded-2xl overflow-hidden shadow-lg border border-heritage-beige-dark">
+    <div className="rounded-2xl overflow-hidden shadow-lg border border-heritage-beige-dark" dir="ltr">
       <div className="relative h-80 md:h-96 bg-heritage-brown">
         <img
           src={current.url}
           alt={lang === 'ar' ? current.caption_ar : current.caption_en}
           className="w-full h-full object-cover opacity-95"
-          onError={(e) => { e.target.src = 'https://placehold.co/800x400/f5e6ca/2C1810?text=صورة+غير+متاحة'; }}
+          onError={(e) => { e.target.style.display = 'none'; }}
         />
 
         {images.length > 1 && (
@@ -24,14 +24,16 @@ export default function ImageGallery({ images, lang }) {
             <button
               onClick={goToPrev}
               className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-heritage-green shadow transition"
+              aria-label="Previous"
             >
-              <span className="material-icons">chevron_right</span>
+              <span className="material-icons">chevron_left</span>
             </button>
             <button
               onClick={goToNext}
               className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-heritage-green shadow transition"
+              aria-label="Next"
             >
-              <span className="material-icons">chevron_left</span>
+              <span className="material-icons">chevron_right</span>
             </button>
           </>
         )}
@@ -41,8 +43,8 @@ export default function ImageGallery({ images, lang }) {
         </div>
       </div>
 
-      <div className="bg-heritage-beige px-6 py-4">
-        <p className="font-semibold text-heritage-brown text-right">
+      <div className="bg-heritage-beige px-6 py-4" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+        <p className="font-semibold text-heritage-brown">
           {lang === 'ar' ? current.caption_ar : current.caption_en}
         </p>
         <p className="text-xs text-heritage-brown-md mt-1 flex items-center gap-1">

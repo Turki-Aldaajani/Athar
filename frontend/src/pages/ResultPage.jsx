@@ -29,7 +29,7 @@ export default function ResultPage({ lang, setLang }) {
   }
 
   return (
-    <div className="min-h-screen bg-heritage-cream">
+    <div className="min-h-screen bg-heritage-cream" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <LanguageSwitcher lang={lang} setLang={setLang} />
 
       {/* Back bar */}
