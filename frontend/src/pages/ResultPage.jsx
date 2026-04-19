@@ -85,6 +85,52 @@ export default function ResultPage({ lang, setLang }) {
           </section>
         )}
 
+        {/* Shahid — Historical Testimonials */}
+        {landmark.shahid?.length > 0 && (
+          <section>
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+              {lang === 'ar' ? 'شاهد تاريخي' : 'Historical Witnesses'}
+              <span className="material-icons text-heritage-gold">record_voice_over</span>
+            </h2>
+            <div className="space-y-4">
+              {landmark.shahid.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm overflow-hidden"
+                >
+                  {/* Gold top accent */}
+                  <div className="h-1 bg-gradient-to-r from-heritage-gold via-yellow-400 to-heritage-gold" />
+                  <div className="p-6">
+                    {/* Large opening quote mark */}
+                    <div
+                      className="text-5xl leading-none text-heritage-gold font-serif mb-2 text-right"
+                      aria-hidden="true"
+                    >
+                      "
+                    </div>
+                    <p className="text-heritage-brown leading-loose text-right text-lg italic mb-4">
+                      {lang === 'ar' ? item.quote_ar : item.quote_en}
+                    </p>
+                    <div className="flex items-center justify-end gap-3 border-t border-heritage-beige-dark pt-4">
+                      <div className="text-right">
+                        <p className="text-xs font-bold text-heritage-brown-md">
+                          {lang === 'ar' ? item.author_ar : item.author_en}
+                        </p>
+                        <p className="text-xs text-heritage-brown-md opacity-70">
+                          {item.year}
+                        </p>
+                      </div>
+                      <div className="w-9 h-9 rounded-full bg-heritage-gold flex items-center justify-center flex-shrink-0">
+                        <span className="material-icons text-white text-base">person</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Back button bottom */}
         <div className="text-center pt-4 pb-8">
           <button

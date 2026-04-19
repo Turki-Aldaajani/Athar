@@ -103,37 +103,90 @@ async def recognize_landmark(req: RecognizeRequest):
                         },
                         {
                             "type": "text",
-                            "text": """التعرف على المعلم التراثي السعودي. اختر من بين هذه الخيارات فقط:
-1. قصر سلوى (Salwa Palace)
-2. قصر المصمك (Masmak Fort)
-3. حي الطريف (At-Turaif District)
-4. ديوانية الإمام (Imam's Diwan)
-5. بيت نصيف (Nasif House)
+                            "text": """أنت نظام ذكاء اصطناعي متخصص في التعرف على التراث السعودي. انظر إلى الصورة وحدد أيّ من المعالم والشخصيات التالية تظهر فيها:
+
+المباني التراثية:
+1. قصر سلوى (Salwa Palace) — قصر طيني في الدرعية، جزء من حي الطريف
+2. قصر المصمك (Masmak Fort) — حصن طيني في وسط الرياض ذو أبراج دائرية
+3. حي الطريف (At-Turaif District) — منازل طينية نجدية في الدرعية على ضفة الوادي
+4. ديوانية الإمام (Imam's Diwan) — مبنى تاريخي في الدرعية
+5. بيت نصيف (Nasif House) — بيت حجازي تقليدي في جدة القديمة ذو رواشين خشبية
+6. الحِجر مدائن صالح (Hegra Mada'in Saleh) — مقابر نبطية منحوتة في صخور وردية ضخمة في العُلا
+7. حديقة البجيري (Al-Bujairi Heritage Park) — منطقة تراثية مرممة في الدرعية
+
+القطع الأثرية والنقوش:
+8. نحت الجِمال بالعُلا (Camel Site Al-Ula) — تماثيل جمال وخيول منحوتة بحجمها الطبيعي في الصخر البازلتي
+9. نقوش الحِمة (Hima Rock Art) — نقوش ورسوم صخرية قديمة لحيوانات وأشكال بشرية وكتابات ثمودية
+
+الشخصيات التاريخية:
+10. الملك عبدالعزيز بن سعود (King Abdulaziz) — مؤسس المملكة العربية السعودية، رجل بملابس تقليدية وعقال
 
 أجب بالاسم الدقيق من القائمة أعلاه فقط، بدون أي شيء آخر.
-إذا لم تتطابق الصورة مع أي معلم، قل: "Unknown"."""
+إذا لم تتطابق الصورة مع أي معلم أو شخصية، قل: "Unknown"."""
                         }
                     ]
                 }
             ],
             temperature=0.1,
-            max_tokens=50,
+            max_tokens=80,
         )
 
         answer = vision_response.choices[0].message.content.strip().lower()
         print(f"Groq Response: {answer}")
 
         landmark_map = {
+            # Heritage Buildings
             "salwa palace": "salwa-palace",
             "قصر سلوى": "salwa-palace",
             "masmak fort": "masmak-fort",
+            "masmak": "masmak-fort",
+            "المصمك": "masmak-fort",
             "قصر المصمك": "masmak-fort",
             "at-turaif": "at-turaif",
+            "turaif": "at-turaif",
+            "الطريف": "at-turaif",
             "حي الطريف": "at-turaif",
             "imam's diwan": "imam-diwan",
+            "imam diwan": "imam-diwan",
             "ديوانية الإمام": "imam-diwan",
+            "الديوانية": "imam-diwan",
             "nasif house": "nasif-house",
+            "nasif": "nasif-house",
             "بيت نصيف": "nasif-house",
+            "نصيف": "nasif-house",
+            # Hegra / Mada'in Saleh
+            "hegra": "hegra",
+            "mada'in saleh": "hegra",
+            "madain saleh": "hegra",
+            "الحجر": "hegra",
+            "مدائن صالح": "hegra",
+            "الحِجر": "hegra",
+            # Camel Rock Art
+            "camel site": "camel-site",
+            "camel rock art": "camel-site",
+            "نحت الجمال": "camel-site",
+            "الجِمال": "camel-site",
+            "موقع الجمال": "camel-site",
+            # King Abdulaziz
+            "king abdulaziz": "king-abdulaziz",
+            "abdulaziz": "king-abdulaziz",
+            "ibn saud": "king-abdulaziz",
+            "الملك عبدالعزيز": "king-abdulaziz",
+            "عبدالعزيز": "king-abdulaziz",
+            "ابن سعود": "king-abdulaziz",
+            # Hima Rock Art
+            "hima rock art": "hima-rock-art",
+            "hima": "hima-rock-art",
+            "نقوش الحمة": "hima-rock-art",
+            "الحِمة": "hima-rock-art",
+            "نقوش حائل": "hima-rock-art",
+            "جبة": "hima-rock-art",
+            "jubbah": "hima-rock-art",
+            # Bujairi Heritage Park
+            "al-bujairi": "bujairi",
+            "bujairi": "bujairi",
+            "البجيري": "bujairi",
+            "حديقة البجيري": "bujairi",
         }
 
         landmark_id = None

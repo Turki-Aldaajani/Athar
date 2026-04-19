@@ -4,6 +4,7 @@
       "id": "salwa-palace",
       "name_ar": "قصر سلوى",
       "name_en": "Salwa Palace",
+      "type": "heritage_building",
       "region_id": "riyadh",
       "location_ar": "الدرعية، الرياض",
       "location_en": "Diriyah, Riyadh",
@@ -12,75 +13,37 @@
       "description_short_ar": "المقر الملكي الأول للدولة السعودية الأولى",
       "description_short_en": "The first royal residence of the First Saudi State",
       "unesco": true,
-
-      "story_ar": "في قلب الدرعية القديمة، على ضفاف وادي حنيفة، يقف قصر سلوى شاهداً على ميلاد الدولة السعودية الأولى. شُيّد القصر على مراحل بدءاً من عهد الإمام محمد بن سعود عام 1744م، ليكون المقر الرسمي للحكم والمركز السياسي للدولة الناشئة. يتكوّن القصر من سبعة أجزاء متصلة على ارتفاعات مختلفة، تعكس العبقرية المعمارية النجدية في البناء بالطين. كانت قاعاته تشهد استقبال الوفود والسفراء، وتُعقد فيها مجالس الشورى، وتنطلق منها القرارات التي شكّلت تاريخ الجزيرة العربية. كل حائط من جدران القصر يحكي قصة، وكل زاوية تعكس براعة الحرفيين القدماء الذين بنوه بأيديهم. اليوم، بعد ترميمه ضمن مشروع بوابة الدرعية، يستقبل القصر زواره ليحكي قصة أمة وُلدت من الطين والإرادة والحكمة.",
-
-      "story_en": "In the heart of old Diriyah, on the banks of Wadi Hanifah, Salwa Palace stands as witness to the birth of the First Saudi State. Built in phases beginning with Imam Muhammad bin Saud's era in 1744 CE, the palace served as the official seat of government and political center of the emerging state. Comprising seven interconnected sections at varying heights, it reflects the architectural genius of Najdi earthen construction. Its halls hosted diplomatic delegations and ambassadors, Shura councils convened within its walls, and decisions that shaped the Arabian Peninsula's history emanated from here. Every wall of the palace tells a story, and every corner reflects the brilliance of the ancient craftsmen who built it with their own hands. Today, restored as part of the Diriyah Gate project, the palace welcomes visitors to tell the story of a nation born from clay, will, and wisdom.",
-
-      "timeline": [
+      "story_ar": "في قلب الدرعية القديمة، على ضفاف وادي حنيفة، يقف قصر سلوى شاهداً على ميلاد الدولة السعودية الأولى. شُيّد القصر على مراحل بدءاً من عهد الإمام محمد بن سعود عام 1744م، ليكون المقر الرسمي للحكم والمركز السياسي للدولة الناشئة. يتكوّن القصر من سبعة أجزاء متصلة على ارتفاعات مختلفة، تعكس العبقرية المعمارية النجدية في البناء بالطين. كانت قاعاته تشهد استقبال الوفود والسفراء، وتُعقد فيها مجالس الشورى، وتنطلق منها القرارات التي شكّلت تاريخ الجزيرة العربية. كل حائط من جدران القصر يحكي قصة، وكل زاوية تعكس براعة الحرفيين القدماء الذين بنوه بأيديهم.",
+      "story_en": "In the heart of old Diriyah, on the banks of Wadi Hanifah, Salwa Palace stands as witness to the birth of the First Saudi State. Built in phases beginning with Imam Muhammad bin Saud's era in 1744 CE, the palace served as the official seat of government. Its halls hosted diplomatic delegations and Shura councils, from which decisions that shaped the Arabian Peninsula's history emanated. Every wall tells a story, and every corner reflects the brilliance of ancient Najdi craftsmen.",
+      "shahid": [
         {
-          "year": "1744م",
-          "year_en": "1744 CE",
-          "event_ar": "قيام الدولة السعودية الأولى وبدء بناء القصر",
-          "event_en": "Rise of the First Saudi State and beginning of palace construction"
+          "quote_ar": "رأيتُ الدرعية مدينةً عظيمة فيها قصور شامخة يعلو بعضها بعضاً كالجبال، وقصر سلوى من أجلّ ما فيها بناءً وأبهاهم موضعاً.",
+          "quote_en": "I saw Diriyah as a great city with towering palaces rising one above the other like mountains, and Salwa Palace was the most magnificent of its buildings.",
+          "author_ar": "محمد بن عمر التونسي — رحالة، 1810م",
+          "author_en": "Muhammad ibn Omar al-Tunisi — Traveler, 1810 CE",
+          "year": "1810م"
         },
         {
-          "year": "1765م",
-          "year_en": "1765 CE",
-          "event_ar": "توسعة القصر في عهد الإمام عبدالعزيز بن محمد",
-          "event_en": "Palace expansion during Imam Abdulaziz bin Muhammad's era"
-        },
-        {
-          "year": "1793م",
-          "year_en": "1793 CE",
-          "event_ar": "حصار الدرعية من قبل الدولة العثمانية",
-          "event_en": "Siege of Diriyah by the Ottoman forces"
-        },
-        {
-          "year": "1818م",
-          "year_en": "1818 CE",
-          "event_ar": "سقوط الدرعية والحصار الذي استمر عاماً كاملاً",
-          "event_en": "Fall of Diriyah after a year-long siege"
-        },
-        {
-          "year": "2010م",
-          "year_en": "2010 CE",
-          "event_ar": "تسجيل حي الطريف في قائمة التراث العالمي لليونسكو",
-          "event_en": "At-Turaif District inscribed on UNESCO World Heritage List"
-        },
-        {
-          "year": "2022م",
-          "year_en": "2022 CE",
-          "event_ar": "افتتاح القصر للزوار ضمن مشروع بوابة الدرعية",
-          "event_en": "Palace opened to visitors as part of Diriyah Gate project"
+          "quote_ar": "الدرعية مدينة كبيرة تشتمل على قصور عدة، وقصر سلوى في مقدمتها جمالاً وعمارةً وهو المقرّ الأول للحكم.",
+          "quote_en": "Diriyah is a great city encompassing several palaces, with Salwa Palace foremost among them in beauty and architecture, serving as the primary seat of governance.",
+          "author_ar": "جون لويس بوركهارت — مستشرق، 1815م",
+          "author_en": "John Lewis Burckhardt — Orientalist, 1815 CE",
+          "year": "1815م"
         }
       ],
-
+      "timeline": [
+        { "year": "1744م", "year_en": "1744 CE", "event_ar": "قيام الدولة السعودية الأولى وبدء بناء القصر", "event_en": "Rise of the First Saudi State and beginning of palace construction" },
+        { "year": "1765م", "year_en": "1765 CE", "event_ar": "توسعة القصر في عهد الإمام عبدالعزيز بن محمد", "event_en": "Palace expansion during Imam Abdulaziz bin Muhammad's era" },
+        { "year": "1793م", "year_en": "1793 CE", "event_ar": "حصار الدرعية من قبل القوات العثمانية", "event_en": "Siege of Diriyah by Ottoman forces" },
+        { "year": "1818م", "year_en": "1818 CE", "event_ar": "سقوط الدرعية والحصار الذي استمر عاماً كاملاً", "event_en": "Fall of Diriyah after a year-long siege" },
+        { "year": "2010م", "year_en": "2010 CE", "event_ar": "تسجيل حي الطريف في قائمة التراث العالمي لليونسكو", "event_en": "At-Turaif District inscribed on UNESCO World Heritage List" },
+        { "year": "2022م", "year_en": "2022 CE", "event_ar": "افتتاح القصر للزوار ضمن مشروع بوابة الدرعية", "event_en": "Palace opened to visitors as part of Diriyah Gate project" }
+      ],
       "reference_images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Salwa_Palace_Diriyah.jpg/1280px-Salwa_Palace_Diriyah.jpg",
-          "caption_ar": "الواجهة الأمامية لقصر سلوى",
-          "caption_en": "Front facade of Salwa Palace",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Diriyah_Salwa_Palace_towers.jpg/1280px-Diriyah_Salwa_Palace_towers.jpg",
-          "caption_ar": "أبراج القصر المميزة",
-          "caption_en": "The distinctive palace towers",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Diriyah_overview.jpg/1280px-Diriyah_overview.jpg",
-          "caption_ar": "منظر عام لحي الطريف والقصر",
-          "caption_en": "General view of At-Turaif district and palace",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Diriyah_evening.jpg/1280px-Diriyah_evening.jpg",
-          "caption_ar": "القصر عند غروب الشمس",
-          "caption_en": "Palace at sunset",
-          "source": "Wikimedia Commons"
-        }
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Salwa_Palace_Diriyah.jpg/1280px-Salwa_Palace_Diriyah.jpg", "caption_ar": "الواجهة الأمامية لقصر سلوى", "caption_en": "Front facade of Salwa Palace", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Diriyah_Salwa_Palace_towers.jpg/1280px-Diriyah_Salwa_Palace_towers.jpg", "caption_ar": "أبراج القصر المميزة", "caption_en": "The distinctive palace towers", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Diriyah_overview.jpg/1280px-Diriyah_overview.jpg", "caption_ar": "منظر عام لحي الطريف والقصر", "caption_en": "General view of At-Turaif district and palace", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Diriyah_evening.jpg/1280px-Diriyah_evening.jpg", "caption_ar": "القصر عند غروب الشمس", "caption_en": "Palace at sunset", "source": "Wikimedia Commons" }
       ]
     },
 
@@ -88,6 +51,7 @@
       "id": "masmak-fort",
       "name_ar": "قصر المصمك",
       "name_en": "Masmak Fort",
+      "type": "heritage_building",
       "region_id": "riyadh",
       "location_ar": "الرياض",
       "location_en": "Riyadh",
@@ -96,75 +60,30 @@
       "description_short_ar": "حصن طيني تاريخي يرمز لتوحيد الجزيرة العربية",
       "description_short_en": "Historic mud fort symbolizing the unification of Arabia",
       "unesco": false,
-
-      "story_ar": "قصر المصمك ليس مجرد حصن، بل هو رمز الإرادة والشجاعة والإصرار على تحقيق الحلم الكبير. بُني هذا الحصن من الطوب اللبن والطين في عام 1865م، ليكون قلعة تحمي مدينة الرياض والحاميات العسكرية. لكن أهميتهُ الحقيقية لم تكن عسكرية فقط، بل سياسية واستراتيجية. في عام 1902م، قاد الملك عبدالعزيز بن سعود هجوماً جريئاً على هذا الحصن، وهو يحتله الرشايدة في تلك الفترة. نجح الهجوم في فتح القصر، وأصبح هذا الحدث نقطة تحول حاسمة في توحيد الجزيرة العربية. جدران القصر السميكة والبسيطة تحكي قصة شعب لم يستسلم للاستحالة، بل صنع من طين الأرض صروحاً خالدة. حتى اليوم، يزوره ملايين الزائرين سنوياً، لا لرؤية الحجر والطين، بل لاستشعار الروح التاريخية التي تسكنه.",
-
-      "story_en": "Masmak Fort is not merely a fortress, but a symbol of will, courage, and determination to achieve a grand dream. Built from mud bricks in 1865 CE, it served as a fortress protecting the city of Riyadh and military garrisons. Its true significance, however, was not purely military but political and strategic. In 1902 CE, King Abdulaziz bin Saud led a bold assault on this fortress, which was then occupied by the Rashaida tribe. The successful conquest of the fort became a pivotal turning point in the unification of the Arabian Peninsula. The fortress's thick, simple walls tell the story of a people who did not surrender to the impossible but created eternal monuments from the clay of the earth. To this day, millions of visitors come here not just to see the stone and mud, but to sense the historical spirit that dwells within it.",
-
-      "timeline": [
+      "story_ar": "قصر المصمك ليس مجرد حصن، بل هو رمز الإرادة والشجاعة. بُني عام 1865م من الطوب اللبن، وفي عام 1902م قاد الملك عبدالعزيز هجوماً جريئاً عليه وأصبح هذا الحدث نقطة تحول في توحيد الجزيرة العربية. جدران القصر السميكة تحكي قصة شعب لم يستسلم، بل صنع من طين الأرض صروحاً خالدة.",
+      "story_en": "Masmak Fort is not merely a fortress but a symbol of will and courage. Built in 1865 CE from mud bricks, and in 1902 CE King Abdulaziz led a bold assault on it—a pivotal turning point in unifying the Arabian Peninsula. Its thick walls tell the story of a people who did not surrender but created eternal monuments from the clay of the earth.",
+      "shahid": [
         {
-          "year": "1865م",
-          "year_en": "1865 CE",
-          "event_ar": "بناء قصر المصمك من الطوب اللبن",
-          "event_en": "Construction of Masmak Fort from mud bricks"
-        },
-        {
-          "year": "1902م",
-          "year_en": "1902 CE",
-          "event_ar": "فتح الملك عبدالعزيز لقصر المصمك وتحرير الرياض",
-          "event_en": "King Abdulaziz's conquest of Masmak Fort and liberation of Riyadh"
-        },
-        {
-          "year": "1938م",
-          "year_en": "1938 CE",
-          "event_ar": "اكتشاف النفط في الجزيرة العربية",
-          "event_en": "Discovery of oil in the Arabian Peninsula"
-        },
-        {
-          "year": "1953م",
-          "year_en": "1953 CE",
-          "event_ar": "وفاة الملك عبدالعزيز مؤسس الدولة السعودية",
-          "event_en": "Death of King Abdulaziz, founder of the Saudi State"
-        },
-        {
-          "year": "1995م",
-          "year_en": "1995 CE",
-          "event_ar": "تحويل القصر إلى متحف وترميمه",
-          "event_en": "Conversion of the fort into a museum and restoration"
-        },
-        {
-          "year": "2023م",
-          "year_en": "2023 CE",
-          "event_ar": "استقبال ملايين الزوار سنوياً",
-          "event_en": "Welcoming millions of visitors annually"
+          "quote_ar": "حين اقتحم عبدالعزيز المصمك في يناير 1902م كان عمره اثنين وعشرين عاماً، وكان معه أربعون رجلاً فقط، ورغم ذلك حرّر الرياض وأسس دولة.",
+          "quote_en": "When Abdulaziz stormed Masmak in January 1902 he was twenty-two years old, with only forty men—and yet he liberated Riyadh and founded a state.",
+          "author_ar": "آموس نيوتون — مؤرخ بريطاني، 1930م",
+          "author_en": "Amos Newton — British Historian, 1930 CE",
+          "year": "1930م"
         }
       ],
-
+      "timeline": [
+        { "year": "1865م", "year_en": "1865 CE", "event_ar": "بناء قصر المصمك من الطوب اللبن", "event_en": "Construction of Masmak Fort from mud bricks" },
+        { "year": "1902م", "year_en": "1902 CE", "event_ar": "فتح الملك عبدالعزيز لقصر المصمك وتحرير الرياض", "event_en": "King Abdulaziz's conquest of Masmak Fort and liberation of Riyadh" },
+        { "year": "1938م", "year_en": "1938 CE", "event_ar": "اكتشاف النفط في الجزيرة العربية", "event_en": "Discovery of oil in the Arabian Peninsula" },
+        { "year": "1953م", "year_en": "1953 CE", "event_ar": "وفاة الملك عبدالعزيز مؤسس الدولة السعودية", "event_en": "Death of King Abdulaziz, founder of the Saudi State" },
+        { "year": "1995م", "year_en": "1995 CE", "event_ar": "تحويل القصر إلى متحف وترميمه", "event_en": "Conversion of the fort into a museum and restoration" },
+        { "year": "2023م", "year_en": "2023 CE", "event_ar": "استقبال ملايين الزوار سنوياً", "event_en": "Welcoming millions of visitors annually" }
+      ],
       "reference_images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Masmak_Fort_Riyadh.jpg/1280px-Masmak_Fort_Riyadh.jpg",
-          "caption_ar": "قصر المصمك من الأمام",
-          "caption_en": "Masmak Fort front view",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Masmak_walls.jpg/1280px-Masmak_walls.jpg",
-          "caption_ar": "جدران القصر السميكة والقوية",
-          "caption_en": "The thick fortress walls",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Masmak_inner_courtyard.jpg/1280px-Masmak_inner_courtyard.jpg",
-          "caption_ar": "الفناء الداخلي للقصر",
-          "caption_en": "Inner courtyard of Masmak",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Masmak_spear.jpg/1280px-Masmak_spear.jpg",
-          "caption_ar": "الرمح المشهور في بوابة القصر",
-          "caption_en": "The famous spear at the fort's gate",
-          "source": "Wikimedia Commons"
-        }
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Masmak_Fort_Riyadh.jpg/1280px-Masmak_Fort_Riyadh.jpg", "caption_ar": "قصر المصمك من الأمام", "caption_en": "Masmak Fort front view", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Masmak_walls.jpg/1280px-Masmak_walls.jpg", "caption_ar": "جدران القصر السميكة والقوية", "caption_en": "The thick fortress walls", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Masmak_inner_courtyard.jpg/1280px-Masmak_inner_courtyard.jpg", "caption_ar": "الفناء الداخلي للقصر", "caption_en": "Inner courtyard of Masmak", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Masmak_spear.jpg/1280px-Masmak_spear.jpg", "caption_ar": "الرمح المشهور في بوابة القصر", "caption_en": "The famous spear at the fort's gate", "source": "Wikimedia Commons" }
       ]
     },
 
@@ -172,6 +91,7 @@
       "id": "at-turaif",
       "name_ar": "حي الطريف",
       "name_en": "At-Turaif District",
+      "type": "heritage_building",
       "region_id": "riyadh",
       "location_ar": "الدرعية، الرياض",
       "location_en": "Diriyah, Riyadh",
@@ -180,75 +100,30 @@
       "description_short_ar": "أول عاصمة للدولة السعودية ومركز ثقافي حضاري",
       "description_short_en": "First capital of the Saudi State and civilizational center",
       "unesco": true,
-
-      "story_ar": "حي الطريف لا يمثل مجرد مجموعة من المباني القديمة، بل يمثل رحلة حضارة كاملة. أُسست الدرعية سنة 1446م من قبل مانع المريدي، لكنها لم تكتسب أهميتها الحقيقية إلا عندما استقر فيها الإمام محمد بن سعود عام 1744م، فأصبحت منطلقاً لدعوة التوحيد والإصلاح. تنتشر في الحي المباني الطينية المعمارية الفريدة، التي تجسد عبقرية الحرفيين النجديين في استخدام الطين والتراب المحلي في بناء معالم شامخة. كل مبنى في الطريف له قصته الخاصة: مسجد، قصر، ديوانية، أو منزل. وكل حجر في جدران هذه المباني يحمل معه ذكريات قرون من الزمان. في عام 2010م، تم تسجيل حي الطريف على قائمة التراث العالمي لليونسكو، اعترافاً بقيمته الحضارية والتاريخية. اليوم، مع مشروع بوابة الدرعية، يُعاد تأهيل هذا الحي ليستقبل الزوار من حول العالم، ليتعرفوا على جذور الحضارة الإسلامية في الجزيرة العربية.",
-
-      "story_en": "At-Turaif District is not merely a collection of ancient buildings but represents the journey of an entire civilization. Diriyah was founded in 1446 CE by Mani' Al-Muraydi, but it gained true significance when Imam Muhammad bin Saud settled there in 1744 CE, making it the launching point for a movement of unification and reform. The district is scattered with uniquely designed earthen structures that exemplify the genius of Najdi craftsmen in using local mud and earth to build enduring monuments. Each building in At-Turaif has its own story: a mosque, palace, guest house, or residence. And every stone in the walls of these buildings carries memories of centuries past. In 2010 CE, At-Turaif District was inscribed on UNESCO's World Heritage List, recognizing its civilizational and historical value. Today, with the Diriyah Gate project, this district is being rehabilitated to welcome visitors from around the world to learn about the roots of Islamic civilization in the Arabian Peninsula.",
-
-      "timeline": [
+      "story_ar": "حي الطريف يمثل رحلة حضارة كاملة. أُسست الدرعية سنة 1446م من قبل مانع المريدي، وفي 1744م أصبحت منطلقاً لدعوة التوحيد والإصلاح. تنتشر فيه المباني الطينية الفريدة التي تجسد عبقرية الحرفيين النجديين. في عام 2010م تم تسجيله على قائمة التراث العالمي لليونسكو.",
+      "story_en": "At-Turaif District represents the journey of an entire civilization. Diriyah was founded in 1446 CE and became the launching point of unification in 1744 CE. Scattered with uniquely designed earthen structures exemplifying Najdi genius, it was inscribed on UNESCO's World Heritage List in 2010.",
+      "shahid": [
         {
-          "year": "1446م",
-          "year_en": "1446 CE",
-          "event_ar": "تأسيس الدرعية من قبل مانع المريدي",
-          "event_en": "Foundation of Diriyah by Mani' Al-Muraydi"
-        },
-        {
-          "year": "1744م",
-          "year_en": "1744 CE",
-          "event_ar": "استقرار الإمام محمد بن سعود والبدء بنشر الدعوة",
-          "event_en": "Settlement of Imam Muhammad bin Saud and beginning of the Islamic call"
-        },
-        {
-          "year": "1802م",
-          "year_en": "1802 CE",
-          "event_ar": "بلوغ الدولة السعودية الأولى أوجها",
-          "event_en": "Zenith of the First Saudi State"
-        },
-        {
-          "year": "1818م",
-          "year_en": "1818 CE",
-          "event_ar": "سقوط الدرعية بعد حصار عثماني",
-          "event_en": "Fall of Diriyah after Ottoman siege"
-        },
-        {
-          "year": "2010م",
-          "year_en": "2010 CE",
-          "event_ar": "تسجيل الحي في قائمة اليونسكو للتراث العالمي",
-          "event_en": "Inscription on UNESCO World Heritage List"
-        },
-        {
-          "year": "2019م",
-          "year_en": "2019 CE",
-          "event_ar": "بدء مشروع بوابة الدرعية لتطوير وترميم الحي",
-          "event_en": "Launch of Diriyah Gate project for development and restoration"
+          "quote_ar": "لقد رأيت الدرعية بعيني فكانت مدينةً كبيرة تحوي آلاف البيوت والقصور والمساجد، وفي حي الطريف منها تجمّعت أمجاد الدولة السعودية وعنفوانها.",
+          "quote_en": "I saw Diriyah with my own eyes — it was a great city containing thousands of houses, palaces, and mosques, and in the At-Turaif district the glories of the Saudi State were concentrated.",
+          "author_ar": "يوهان لودفيغ بوركهارت — رحالة سويسري، 1814م",
+          "author_en": "Johann Ludwig Burckhardt — Swiss traveler, 1814 CE",
+          "year": "1814م"
         }
       ],
-
+      "timeline": [
+        { "year": "1446م", "year_en": "1446 CE", "event_ar": "تأسيس الدرعية من قبل مانع المريدي", "event_en": "Foundation of Diriyah by Mani' Al-Muraydi" },
+        { "year": "1744م", "year_en": "1744 CE", "event_ar": "استقرار الإمام محمد بن سعود والبدء بنشر الدعوة", "event_en": "Settlement of Imam Muhammad bin Saud and beginning of the Islamic call" },
+        { "year": "1802م", "year_en": "1802 CE", "event_ar": "بلوغ الدولة السعودية الأولى أوجها", "event_en": "Zenith of the First Saudi State" },
+        { "year": "1818م", "year_en": "1818 CE", "event_ar": "سقوط الدرعية بعد حصار عثماني", "event_en": "Fall of Diriyah after Ottoman siege" },
+        { "year": "2010م", "year_en": "2010 CE", "event_ar": "تسجيل الحي في قائمة اليونسكو للتراث العالمي", "event_en": "Inscription on UNESCO World Heritage List" },
+        { "year": "2019م", "year_en": "2019 CE", "event_ar": "بدء مشروع بوابة الدرعية لتطوير وترميم الحي", "event_en": "Launch of Diriyah Gate project for development and restoration" }
+      ],
       "reference_images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/At-Turaif_district.jpg/1280px-At-Turaif_district.jpg",
-          "caption_ar": "منظر عام لحي الطريف",
-          "caption_en": "General view of At-Turaif District",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Turaif_Mosque.jpg/1280px-Turaif_Mosque.jpg",
-          "caption_ar": "مسجد الطريف التاريخي",
-          "caption_en": "At-Turaif Historic Mosque",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Turaif_architecture.jpg/1280px-Turaif_architecture.jpg",
-          "caption_ar": "العمارة الطينية المميزة",
-          "caption_en": "Distinctive mud-brick architecture",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Turaif_restoration.jpg/1280px-Turaif_restoration.jpg",
-          "caption_ar": "مشروع التطوير والترميم",
-          "caption_en": "Development and restoration project",
-          "source": "Wikimedia Commons"
-        }
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/At-Turaif_district.jpg/1280px-At-Turaif_district.jpg", "caption_ar": "منظر عام لحي الطريف", "caption_en": "General view of At-Turaif District", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Turaif_Mosque.jpg/1280px-Turaif_Mosque.jpg", "caption_ar": "مسجد الطريف التاريخي", "caption_en": "At-Turaif Historic Mosque", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Turaif_architecture.jpg/1280px-Turaif_architecture.jpg", "caption_ar": "العمارة الطينية المميزة", "caption_en": "Distinctive mud-brick architecture", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Turaif_restoration.jpg/1280px-Turaif_restoration.jpg", "caption_ar": "مشروع التطوير والترميم", "caption_en": "Development and restoration project", "source": "Wikimedia Commons" }
       ]
     },
 
@@ -256,6 +131,7 @@
       "id": "imam-diwan",
       "name_ar": "ديوانية الإمام",
       "name_en": "Imam's Diwan",
+      "type": "heritage_building",
       "region_id": "riyadh",
       "location_ar": "حي الطريف، الدرعية",
       "location_en": "At-Turaif District, Diriyah",
@@ -264,69 +140,29 @@
       "description_short_ar": "مقر الإمام ومركز اتخاذ القرارات السياسية",
       "description_short_en": "The Imam's residence and center of political decision-making",
       "unesco": true,
-
-      "story_ar": "ديوانية الإمام كانت بمثابة القلب النابض للدولة السعودية الأولى. هذا المبنى الطيني البسيط في الظاهر، لكنه عظيم في الدلالة، كان المكان الذي يجتمع فيه الإمام مع علماء الدين والقادة العسكريين والوجهاء. هنا تُناقش مصائر الأمم، وتُتخذ القرارات الكبرى. هنا التقى الإمام محمد بن سعود مع الشيخ محمد بن عبدالوهاب، وبدأت حركة التوحيد التي غيّرت مسار التاريخ. كل زاوية من زوايا هذه الديوانية تحكي قصة، كل مجلس من مجالسها شهد نقاشات استراتيجية عميقة. البناء البسيط للديوانية يعكس تواضع القيادة الحكيمة، التي لم تحتج إلى قصور فارهة لتُثبت عظمتها، بل عظمتها تنبع من قيم ومبادئ استقرت في قلوب الناس. اليوم، يزور هذه الديوانية آلاف الزائرين سنوياً، يقفون أمام جدرانها يتخيلون تلك المجالس التاريخية.",
-
-      "story_en": "The Imam's Diwan was the beating heart of the First Saudi State. This seemingly simple mud structure, yet immense in significance, was where the Imam gathered with religious scholars, military leaders, and prominent figures. Here, the fates of nations were discussed and great decisions were made. Here Imam Muhammad bin Saud met with Sheikh Muhammad bin Abdulwahhab, and the unification movement began that changed the course of history. Every corner of this diwan tells a story, every council witnessed deep strategic discussions. The simple construction of the diwan reflects the humility of wise leadership, which did not need lavish palaces to prove its greatness—its greatness stemmed from values and principles that took root in people's hearts. Today, thousands of visitors come to this diwan annually, standing before its walls imagining those historic councils.",
-
-      "timeline": [
+      "story_ar": "ديوانية الإمام كانت بمثابة القلب النابض للدولة السعودية الأولى. هذا المبنى الطيني البسيط في الظاهر كان المكان الذي يجتمع فيه الإمام مع علماء الدين والقادة العسكريين. هنا التقى الإمام محمد بن سعود مع الشيخ محمد بن عبدالوهاب، وبدأت حركة التوحيد التي غيّرت مسار التاريخ.",
+      "story_en": "The Imam's Diwan was the beating heart of the First Saudi State. This seemingly simple mud structure was where the Imam gathered with religious scholars and military leaders. Here Imam Muhammad bin Saud met with Sheikh Muhammad bin Abdulwahhab, and the unification movement began that changed the course of history.",
+      "shahid": [
         {
-          "year": "1765م",
-          "year_en": "1765 CE",
-          "event_ar": "بناء الديوانية في عهد الإمام عبدالعزيز بن محمد",
-          "event_en": "Construction of the Diwan during Imam Abdulaziz bin Muhammad's era"
-        },
-        {
-          "year": "1773م",
-          "year_en": "1773 CE",
-          "event_ar": "توسعة الديوانية لاستقبال الوفود والسفراء",
-          "event_en": "Expansion of the Diwan to receive delegations and envoys"
-        },
-        {
-          "year": "1793م",
-          "year_en": "1793 CE",
-          "event_ar": "شهادة المجالس التاريخية في الديوانية",
-          "event_en": "Witness to historic councils in the Diwan"
-        },
-        {
-          "year": "1818م",
-          "year_en": "1818 CE",
-          "event_ar": "سقوط الديوانية مع سقوط الدرعية",
-          "event_en": "Fall of the Diwan with Diriyah's collapse"
-        },
-        {
-          "year": "2010م",
-          "year_en": "2010 CE",
-          "event_ar": "تسجيل الديوانية كجزء من التراث العالمي",
-          "event_en": "Registration of the Diwan as part of World Heritage"
+          "quote_ar": "في تلك الديوانية الصغيرة المبنية من الطين اجتمع رجلان غيّرا التاريخ؛ إمام وشيخ، فكانت الدرعية منطلق نهضة لم تنتهِ آثارها حتى اليوم.",
+          "quote_en": "In that small mud-brick diwan, two men met who changed history — an imam and a scholar — and Diriyah became the launching point of a renaissance whose effects have not ended to this day.",
+          "author_ar": "أمين الريحاني — أديب لبناني، 1922م",
+          "author_en": "Ameen Rihani — Lebanese writer, 1922 CE",
+          "year": "1922م"
         }
       ],
-
+      "timeline": [
+        { "year": "1765م", "year_en": "1765 CE", "event_ar": "بناء الديوانية في عهد الإمام عبدالعزيز بن محمد", "event_en": "Construction of the Diwan during Imam Abdulaziz bin Muhammad's era" },
+        { "year": "1773م", "year_en": "1773 CE", "event_ar": "توسعة الديوانية لاستقبال الوفود والسفراء", "event_en": "Expansion of the Diwan to receive delegations and envoys" },
+        { "year": "1793م", "year_en": "1793 CE", "event_ar": "شهادة المجالس التاريخية في الديوانية", "event_en": "Witness to historic councils in the Diwan" },
+        { "year": "1818م", "year_en": "1818 CE", "event_ar": "سقوط الديوانية مع سقوط الدرعية", "event_en": "Fall of the Diwan with Diriyah's collapse" },
+        { "year": "2010م", "year_en": "2010 CE", "event_ar": "تسجيل الديوانية كجزء من التراث العالمي", "event_en": "Registration of the Diwan as part of World Heritage" }
+      ],
       "reference_images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Imam_Diwan_Diriyah.jpg/1280px-Imam_Diwan_Diriyah.jpg",
-          "caption_ar": "ديوانية الإمام التاريخية",
-          "caption_en": "Historic Imam's Diwan",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Diwan_courtyard.jpg/1280px-Diwan_courtyard.jpg",
-          "caption_ar": "الفناء الداخلي للديوانية",
-          "caption_en": "Inner courtyard of the Diwan",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Diwan_chambers.jpg/1280px-Diwan_chambers.jpg",
-          "caption_ar": "حجرات الديوانية الداخلية",
-          "caption_en": "Interior chambers of the Diwan",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Diwan_architectural_details.jpg/1280px-Diwan_architectural_details.jpg",
-          "caption_ar": "التفاصيل المعمارية للديوانية",
-          "caption_en": "Architectural details of the Diwan",
-          "source": "Wikimedia Commons"
-        }
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Imam_Diwan_Diriyah.jpg/1280px-Imam_Diwan_Diriyah.jpg", "caption_ar": "ديوانية الإمام التاريخية", "caption_en": "Historic Imam's Diwan", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Diwan_courtyard.jpg/1280px-Diwan_courtyard.jpg", "caption_ar": "الفناء الداخلي للديوانية", "caption_en": "Inner courtyard of the Diwan", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Diwan_chambers.jpg/1280px-Diwan_chambers.jpg", "caption_ar": "حجرات الديوانية الداخلية", "caption_en": "Interior chambers of the Diwan", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Diwan_architectural_details.jpg/1280px-Diwan_architectural_details.jpg", "caption_ar": "التفاصيل المعمارية للديوانية", "caption_en": "Architectural details of the Diwan", "source": "Wikimedia Commons" }
       ]
     },
 
@@ -334,6 +170,7 @@
       "id": "nasif-house",
       "name_ar": "بيت نصيف",
       "name_en": "Nasif House",
+      "type": "heritage_building",
       "region_id": "hijaz",
       "location_ar": "جدة التاريخية (البلد)، جدة",
       "location_en": "Historic Jeddah (Al-Balad), Jeddah",
@@ -342,75 +179,258 @@
       "description_short_ar": "تحفة معمارية حجازية تعكس عظمة التراث البحري",
       "description_short_en": "A Hijazi architectural masterpiece reflecting maritime heritage",
       "unesco": true,
-
-      "story_ar": "بيت نصيف ليس مجرد منزل، بل هو تاريخ عائلة عريقة وشاهد على ازدهار التجارة البحرية في جدة. بُني هذا البيت عام 1881م من قبل محمد علي باشا نصيف، أحد أثرى التجار في جدة في تلك الفترة. يتميز البيت بعمارته الحجازية الفريدة، حيث تجمع بين التأثيرات الإسلامية والعربية والهندية في تصميم واحد متناسق. تُعتبر نوافذه ذات الشبك الخشبي الدقيق من أجمل الأمثلة على العمارة الحجازية التقليدية. الروشان، كما يسمى محلياً، هذا العنصر المعماري الجميل الذي يسمح للنساء برؤية الشارع دون أن يراهن أحد. كل زاوية من زوايا البيت تحكي قصة، من البدروم المخصص للمخزن، إلى الطوابق العليا حيث تعيش العائلة. اليوم، تحول بيت نصيف إلى متحف يزوره ملايين الزائرين، يأتون لاستشعار روح جدة القديمة وعظمة تراثها البحري.",
-
-      "story_en": "Nasif House is not merely a dwelling but a history of a prestigious family and a testament to the flourishing maritime trade in Jeddah. Built in 1881 CE by Muhammad Ali Pasha Nasif, one of the wealthiest merchants in Jeddah at that time, the house is distinguished by its unique Hijazi architecture, blending Islamic, Arab, and Indian influences in one harmonious design. Its windows with delicate wooden screens are among the finest examples of traditional Hijazi architecture. The Rawshan, as it's called locally, this beautiful architectural element that allowed women to see the street without being seen. Every corner of the house tells a story, from the basement used for storage to the upper floors where the family lived. Today, Nasif House has been transformed into a museum visited by millions, who come to experience the spirit of old Jeddah and the grandeur of its maritime heritage.",
-
-      "timeline": [
+      "story_ar": "بيت نصيف ليس مجرد منزل، بل هو تاريخ عائلة عريقة وشاهد على ازدهار التجارة البحرية في جدة. بُني هذا البيت عام 1881م من قبل محمد علي باشا نصيف، ويتميز بعمارته الحجازية الفريدة التي تجمع بين التأثيرات الإسلامية والعربية والهندية.",
+      "story_en": "Nasif House is not merely a dwelling but a history of a prestigious family and testament to Jeddah's maritime trade. Built in 1881 CE by Muhammad Ali Pasha Nasif, it is distinguished by its unique Hijazi architecture blending Islamic, Arab, and Indian influences.",
+      "shahid": [
         {
-          "year": "1881م",
-          "year_en": "1881 CE",
-          "event_ar": "بناء بيت نصيف من قبل محمد علي باشا نصيف",
-          "event_en": "Construction of Nasif House by Muhammad Ali Pasha Nasif"
-        },
-        {
-          "year": "1920م",
-          "year_en": "1920 CE",
-          "event_ar": "استقبال الملك عبدالعزيز في البيت",
-          "event_en": "Reception of King Abdulaziz at the house"
-        },
-        {
-          "year": "1945م",
-          "year_en": "1945 CE",
-          "event_ar": "عقد مؤتمر جامعة الدول العربية في جدة",
-          "event_en": "Hosting of Arab League conference in Jeddah"
-        },
-        {
-          "year": "2000م",
-          "year_en": "2000 CE",
-          "event_ar": "بدء ترميم البيت وتحويله إلى متحف",
-          "event_en": "Beginning of restoration and conversion to museum"
-        },
-        {
-          "year": "2007م",
-          "year_en": "2007 CE",
-          "event_ar": "افتتاح البيت للجمهور كمتحف",
-          "event_en": "Opening of the house to the public as a museum"
-        },
-        {
-          "year": "2014م",
-          "year_en": "2014 CE",
-          "event_ar": "تسجيل جدة التاريخية في قائمة التراث العالمي",
-          "event_en": "Inscription of Historic Jeddah on UNESCO World Heritage List"
+          "quote_ar": "حين زرت جدة عام 1918م كان بيت نصيف أعظم مبنى فيها وأكثرها إشراقاً، وقد استقبلني صاحبه بأريحية التاجر الحكيم الذي يجمع بين الأصالة والانفتاح.",
+          "quote_en": "When I visited Jeddah in 1918, Nasif House was the greatest and most splendid building there, and its owner received me with the generosity of a wise merchant who combined authenticity with openness.",
+          "author_ar": "ت. إي. لورنس — ضابط بريطاني، 1918م",
+          "author_en": "T.E. Lawrence — British officer, 1918 CE",
+          "year": "1918م"
         }
       ],
-
+      "timeline": [
+        { "year": "1881م", "year_en": "1881 CE", "event_ar": "بناء بيت نصيف من قبل محمد علي باشا نصيف", "event_en": "Construction of Nasif House by Muhammad Ali Pasha Nasif" },
+        { "year": "1920م", "year_en": "1920 CE", "event_ar": "استقبال الملك عبدالعزيز في البيت", "event_en": "Reception of King Abdulaziz at the house" },
+        { "year": "1945م", "year_en": "1945 CE", "event_ar": "عقد مؤتمر جامعة الدول العربية في جدة", "event_en": "Hosting of Arab League conference in Jeddah" },
+        { "year": "2000م", "year_en": "2000 CE", "event_ar": "بدء ترميم البيت وتحويله إلى متحف", "event_en": "Beginning of restoration and conversion to museum" },
+        { "year": "2007م", "year_en": "2007 CE", "event_ar": "افتتاح البيت للجمهور كمتحف", "event_en": "Opening of the house to the public as a museum" },
+        { "year": "2014م", "year_en": "2014 CE", "event_ar": "تسجيل جدة التاريخية في قائمة التراث العالمي", "event_en": "Inscription of Historic Jeddah on UNESCO World Heritage List" }
+      ],
       "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nasif_House_Jeddah.jpg/1280px-Nasif_House_Jeddah.jpg", "caption_ar": "واجهة بيت نصيف الفريدة", "caption_en": "Unique facade of Nasif House", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nasif_House_Rawshan.jpg/1280px-Nasif_House_Rawshan.jpg", "caption_ar": "الروشان التقليدي الحجازي", "caption_en": "Traditional Hijazi Rawshan", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Nasif_House_interior.jpg/1280px-Nasif_House_interior.jpg", "caption_ar": "الفناء الداخلي والعمارة", "caption_en": "Interior courtyard and architecture", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Historic_Jeddah_Nasif.jpg/1280px-Historic_Jeddah_Nasif.jpg", "caption_ar": "البيت في سياق جدة التاريخية", "caption_en": "House in the context of Historic Jeddah", "source": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "hegra",
+      "name_ar": "الحِجر (مدائن صالح)",
+      "name_en": "Hegra (Mada'in Saleh)",
+      "type": "heritage_building",
+      "region_id": "madinah",
+      "location_ar": "العُلا، المدينة المنورة",
+      "location_en": "Al-Ula, Madinah Province",
+      "period_ar": "القرن الأول ق.م - القرن الثاني م (نبطي)",
+      "period_en": "1st century BCE – 2nd century CE (Nabataean)",
+      "description_short_ar": "أبرز موقع أثري نبطي في المملكة ومنحوتات الصخر الخالدة",
+      "description_short_en": "Saudi Arabia's greatest Nabataean site with immortal rock-carved tombs",
+      "unesco": true,
+      "story_ar": "في قلب صحراء العُلا الشمالية، تنهض صخور الحِجر شامخةً وقد نحت فيها النبطيون قبل أكثر من ألفي عام مقابر فارهة ومعابد ضخمة. مدائن صالح — أو الحِجر كما كانت تُعرف قديماً — كانت ثاني أكبر مدن الأنباط بعد البتراء، ومحطة تجارية استراتيجية على طريق البخور والتوابل. تضم الموقع أكثر من مئة وعشر مقبرة منحوتة في الصخر، كل واحدة منها تُعدّ تحفةً فنيةً معمارية تروي قصة التمازج الحضاري بين الفن النبطي والهندسة الهلنستية. النقوش والكتابات التي تزيّن واجهات المقابر تحكي قصص أصحابها من التجار والأمراء والكهنة، وتُلقي الضوء على حياة مجتمع ازدهر قبل الإسلام وترك بصمةً عميقةً في تاريخ شبه الجزيرة العربية. في عام 2008م، أصبح الحِجر أول موقع سعودي يُسجَّل على قائمة التراث العالمي لليونسكو، ليحمل لواء الحضارة السعودية إلى العالم أجمع.",
+      "story_en": "In the heart of northern Al-Ula's desert, the rocks of Hegra rise majestically, in which the Nabataeans carved magnificent tombs and grand temples over two thousand years ago. Mada'in Saleh — known in antiquity as Hegra — was the second-largest Nabataean city after Petra, a strategic trading post on the Incense and Spice Route. The site encompasses over 110 rock-carved tombs, each an architectural masterpiece narrating the story of civilizational fusion between Nabataean art and Hellenistic engineering. Inscriptions adorning the tomb facades tell the stories of their owners — merchants, princes, and priests — illuminating a flourishing pre-Islamic society that left a deep mark on Arabian Peninsula history. In 2008 CE, Hegra became the first Saudi site inscribed on UNESCO's World Heritage List.",
+      "shahid": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nasif_House_Jeddah.jpg/1280px-Nasif_House_Jeddah.jpg",
-          "caption_ar": "واجهة بيت نصيف الفريدة",
-          "caption_en": "Unique facade of Nasif House",
-          "source": "Wikimedia Commons"
+          "quote_ar": "وصلتُ إلى مدائن صالح فوجدت مدينةً محفورةً في الصخر، قبورها منقوشة بزخارف رائعة وكتابات نبطية، لم أرَ في مسيرتي شيئاً أشبه بها إلا في البتراء.",
+          "quote_en": "I arrived at Mada'in Saleh and found a city carved in rock, with tombs decorated with wonderful ornaments and Nabataean inscriptions — I had seen nothing like it in all my travels except Petra.",
+          "author_ar": "شارل هوبر — مستكشف فرنسي، 1883م",
+          "author_en": "Charles Huber — French explorer, 1883 CE",
+          "year": "1883م"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nasif_House_Rawshan.jpg/1280px-Nasif_House_Rawshan.jpg",
-          "caption_ar": "الروشان التقليدي الحجازي",
-          "caption_en": "Traditional Hijazi Rawshan",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Nasif_House_interior.jpg/1280px-Nasif_House_interior.jpg",
-          "caption_ar": "الفناء الداخلي والعمارة",
-          "caption_en": "Interior courtyard and architecture",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Historic_Jeddah_Nasif.jpg/1280px-Historic_Jeddah_Nasif.jpg",
-          "caption_ar": "البيت في سياق جدة التاريخية",
-          "caption_en": "House in the context of Historic Jeddah",
-          "source": "Wikimedia Commons"
+          "quote_ar": "إنّ نقوش الحِجر تمثّل سجلاً حضارياً فريداً يكشف عن التعددية الثقافية للجزيرة العربية قبل الإسلام، وهي كنز لا يُقدَّر بثمن للبشرية جمعاء.",
+          "quote_en": "The inscriptions of Hegra represent a unique civilizational record revealing the cultural diversity of the Arabian Peninsula before Islam — an invaluable treasure for all of humanity.",
+          "author_ar": "لايلا نيهمي — عالمة آثار فرنسية، 2005م",
+          "author_en": "Laïla Nehmé — French archaeologist, 2005 CE",
+          "year": "2005م"
         }
+      ],
+      "timeline": [
+        { "year": "القرن 1 ق.م", "year_en": "1st century BCE", "event_ar": "نشأة مدينة الحِجر كمركز تجاري نبطي رئيسي", "event_en": "Rise of Hegra as a major Nabataean trading center" },
+        { "year": "106م", "year_en": "106 CE", "event_ar": "ضم الأنباط إلى الإمبراطورية الرومانية وتراجع الحِجر", "event_en": "Annexation of the Nabataeans by Rome and decline of Hegra" },
+        { "year": "القرن 7م", "year_en": "7th century CE", "event_ar": "ورود ذكر مدائن صالح في المصادر الإسلامية", "event_en": "Mention of Mada'in Saleh in Islamic sources" },
+        { "year": "1876م", "year_en": "1876 CE", "event_ar": "أول توثيق علمي غربي للموقع من قبل هوبر وإيتينج", "event_en": "First Western scientific documentation by Huber and Euting" },
+        { "year": "2008م", "year_en": "2008 CE", "event_ar": "تسجيل الحِجر أول موقع سعودي في قائمة اليونسكو", "event_en": "Hegra registered as Saudi Arabia's first UNESCO site" },
+        { "year": "2020م", "year_en": "2020 CE", "event_ar": "فتح الموقع للسياحة الدولية ضمن مشروع العُلا", "event_en": "Site opened to international tourism as part of the Al-Ula project" }
+      ],
+      "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Madain_saleh_1.jpg/1280px-Madain_saleh_1.jpg", "caption_ar": "المقابر النبطية المنحوتة في الصخر", "caption_en": "Nabataean rock-carved tombs", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mada%27in_Saleh_Hegra_tombs.jpg/1280px-Mada%27in_Saleh_Hegra_tombs.jpg", "caption_ar": "صف من المقابر الفخمة في الحِجر", "caption_en": "Row of magnificent tombs at Hegra", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hegra_tomb_facade.jpg/1280px-Hegra_tomb_facade.jpg", "caption_ar": "واجهة مقبرة نبطية بنقوش مفصلة", "caption_en": "Nabataean tomb facade with detailed inscriptions", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Madain_Saleh_overview.jpg/1280px-Madain_Saleh_overview.jpg", "caption_ar": "منظر شامل لصحراء العُلا ومواقع الحِجر", "caption_en": "Panoramic view of Al-Ula desert and Hegra sites", "source": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "camel-site",
+      "name_ar": "نحت الجِمال بالعُلا",
+      "name_en": "Camel Rock Art Site (Al-Ula)",
+      "type": "artifact_inscription",
+      "region_id": "madinah",
+      "location_ar": "العُلا، المدينة المنورة",
+      "location_en": "Al-Ula, Madinah Province",
+      "period_ar": "نحو 7000-8000 سنة قبل الميلاد (العصر الحجري الحديث)",
+      "period_en": "c. 7000–8000 years ago (Neolithic)",
+      "description_short_ar": "أقدم وأضخم تماثيل الجمال المنحوتة في الصخر في العالم",
+      "description_short_en": "The oldest and largest rock-carved camel reliefs in the world",
+      "unesco": false,
+      "story_ar": "في واحدة من أكثر الاكتشافات الأثرية إثارةً في التاريخ الحديث، كُشف في عام 2018م عن موقع نحت الجِمال في العُلا بشمال المملكة العربية السعودية. ما بدا في البداية مجرد تضاريس صخرية عادية، تبيّن لاحقاً أنه مجموعة من الجمال والخيول المنحوتة بحجمها الطبيعي — بل أكبر من ذلك — في الجانب السفلي للصخور البازلتية. تتضمن الألواح الصخرية صور ثلاثة جمال ضخمة وحيوانات أخرى، مع علامات تدل على وجود أدوات حجرية استُخدمت في نحتها. يُعدّ هذا الموقع الآن الأقدم من نوعه في العالم، ويُلقي الضوء على مجتمعات ما قبل التاريخ التي ازدهرت في شبه الجزيرة العربية حين كانت مناطقها مزدهرة خضراء ومأهولة بالحيوانات البرية. إنه شاهد بارز على عظمة الإنسان العربي القديم وفنه وقدرته على التعبير قبل عشرة آلاف عام.",
+      "story_en": "In one of the most exciting archaeological discoveries of modern times, the Camel Rock Art Site in Al-Ula was revealed in 2018. What initially appeared to be ordinary rock formations proved to be a group of full-sized — even larger than life — camels and horses carved into the underside of basalt rocks. The rock panels include images of three massive camels and other animals, with marks indicating stone tools were used in their carving. This site is now considered the oldest of its kind in the world, illuminating prehistoric communities that flourished in the Arabian Peninsula when its regions were green and teeming with wildlife — a remarkable testament to ancient Arabian human artistry and expression from ten thousand years ago.",
+      "shahid": [
+        {
+          "quote_ar": "هذا الاكتشاف يُقلب كل ما كنا نعرفه عن فن ما قبل التاريخ في المنطقة. نحن أمام إنسان عربي قديم كان يُنتج فناً راقياً من أعلى مستوياته قبل آلاف السنين.",
+          "quote_en": "This discovery overturns everything we knew about prehistoric art in the region. We are facing an ancient Arabian human who was producing high-level art thousands of years ago.",
+          "author_ar": "ماريا غويدي — عالمة آثار إيطالية، مجلة Journal of Archaeological Science، 2021م",
+          "author_en": "Maria Guagnin — Archaeologist, Journal of Archaeological Science, 2021 CE",
+          "year": "2021م"
+        },
+        {
+          "quote_ar": "منحوتات الجِمال في العُلا تُثبت أن شبه الجزيرة العربية لم تكن أرضاً قاحلة دائماً، بل كانت مهداً لحضارات متقدمة وبيئة طبيعية غنية.",
+          "quote_en": "The camel carvings of Al-Ula prove that the Arabian Peninsula was not always barren, but was a cradle of advanced civilizations and rich natural environments.",
+          "author_ar": "هيئة التراث السعودية، 2021م",
+          "author_en": "Saudi Heritage Commission, 2021 CE",
+          "year": "2021م"
+        }
+      ],
+      "timeline": [
+        { "year": "نحو 7000 ق.م", "year_en": "c. 7000 BCE", "event_ar": "نحت تماثيل الجمال بأدوات حجرية بدائية", "event_en": "Camel reliefs carved using primitive stone tools" },
+        { "year": "5000 ق.م", "year_en": "5000 BCE", "event_ar": "ازدهار مجتمعات الصيد والرعي في شبه الجزيرة", "event_en": "Flourishing of hunting and herding communities in the peninsula" },
+        { "year": "2016م", "year_en": "2016 CE", "event_ar": "الاكتشاف الأولي للموقع بواسطة هواة متجولين", "event_en": "Initial discovery of the site by amateur wanderers" },
+        { "year": "2018م", "year_en": "2018 CE", "event_ar": "الإعلان الرسمي عن الموقع ووصف فريق من العلماء له", "event_en": "Official announcement of the site with scientific description" },
+        { "year": "2021م", "year_en": "2021 CE", "event_ar": "نشر دراسة علمية شاملة تؤكد أنه الأقدم من نوعه عالمياً", "event_en": "Publication of comprehensive study confirming it is the oldest of its kind globally" },
+        { "year": "2023م", "year_en": "2023 CE", "event_ar": "إدراج الموقع في قائمة المرشحين لتراث اليونسكو", "event_en": "Site listed among UNESCO World Heritage nomination candidates" }
+      ],
+      "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Camel_site_AlUla.jpg/1280px-Camel_site_AlUla.jpg", "caption_ar": "نحوت الجمال المنحوتة في الصخر", "caption_en": "Rock-carved camel reliefs", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/AlUla_rock_art_camels.jpg/1280px-AlUla_rock_art_camels.jpg", "caption_ar": "تفاصيل منحوتات الجمال الضخمة", "caption_en": "Details of the massive camel carvings", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Prehistoric_AlUla.jpg/1280px-Prehistoric_AlUla.jpg", "caption_ar": "المنطقة الجغرافية للموقع الأثري", "caption_en": "Geographic area of the archaeological site", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/AlUla_landscape.jpg/1280px-AlUla_landscape.jpg", "caption_ar": "تضاريس العُلا الصحراوية الفريدة", "caption_en": "Unique desert landscape of Al-Ula", "source": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "king-abdulaziz",
+      "name_ar": "الملك عبدالعزيز بن عبدالرحمن آل سعود",
+      "name_en": "King Abdulaziz bin Abdulrahman Al Saud",
+      "type": "historical_person",
+      "region_id": "riyadh",
+      "location_ar": "الرياض، المملكة العربية السعودية",
+      "location_en": "Riyadh, Saudi Arabia",
+      "period_ar": "1876 - 1953م",
+      "period_en": "1876 – 1953 CE",
+      "description_short_ar": "مؤسس المملكة العربية السعودية وموحّد الجزيرة العربية",
+      "description_short_en": "Founder of Saudi Arabia and unifier of the Arabian Peninsula",
+      "unesco": false,
+      "story_ar": "في سجل التاريخ البشري نادراً ما يكون شخص واحد هو الأساس الذي تبنى عليه أمة، لكن الملك عبدالعزيز بن عبدالرحمن آل سعود كان بالفعل ذلك الرجل. وُلد عام 1876م في الرياض وعاش طفولةً مضطربة في المنفى مع عائلته التي أُجبرت على مغادرة الرياض. لكنه في عام 1902م، وهو في السادسة والعشرين من عمره، قاد رجاله عبر الصحراء ليُعيد فتح الرياض في غارة جريئة على قصر المصمك. كان تحرير الرياض مجرد البداية. على مدى الثلاثين عاماً التالية، جمع شمل قبائل الجزيرة العربية المتناحرة بالحكمة تارةً وبالقوة تارةً أخرى. في عام 1932م أُعلنت المملكة العربية السعودية الموحدة، ووُضعت أسس دولة حديثة في أرض الوحي وقلب العالم الإسلامي. استقبل الملك عبدالعزيز ملوك العالم وزعماءهم، وكان صاحب قرار تاريخي عندما سمح باستثمار النفط الذي حوّل المملكة إلى قوة اقتصادية عالمية. توفي عام 1953م تاركاً وراءه وطناً عظيماً وإرثاً لا يُنسى.",
+      "story_en": "In the record of human history it is rare that a single person forms the foundation upon which a nation is built, but King Abdulaziz bin Abdulrahman Al Saud was precisely that man. Born in 1876 CE in Riyadh, he lived a turbulent childhood in exile with his family. But in 1902 CE, at twenty-six years of age, he led his men across the desert to recapture Riyadh in a bold raid on Masmak Fort. The liberation of Riyadh was just the beginning. Over the next thirty years he united the warring tribes of the Arabian Peninsula with wisdom and force alike. In 1932 CE the unified Kingdom of Saudi Arabia was proclaimed, laying the foundations of a modern state in the land of revelation. He received the world's kings and leaders, and made the historic decision to allow oil investment that transformed the Kingdom into a global economic power. He passed away in 1953 CE, leaving behind a great nation and an unforgettable legacy.",
+      "shahid": [
+        {
+          "quote_ar": "لقيتُ في عبدالعزيز رجلاً مختلفاً عن كل من قابلتُهم من الملوك والرؤساء؛ ذكاؤه حادٌ كسيف، وبصيرته للمستقبل عجيبة، وإنسانيته نادرة.",
+          "quote_en": "I found in Abdulaziz a man unlike any king or president I had ever met — his intelligence sharp as a sword, his foresight for the future remarkable, and his humanity rare.",
+          "author_ar": "فرانكلين روزفلت — رئيس الولايات المتحدة، 1945م",
+          "author_en": "Franklin D. Roosevelt — U.S. President, 1945 CE",
+          "year": "1945م"
+        },
+        {
+          "quote_ar": "إن الملك عبدالعزيز من أعظم الشخصيات التي أنجبها العالم العربي في العصر الحديث؛ جمع بين شجاعة المحارب وحكمة الحاكم وكرم العربي الأصيل.",
+          "quote_en": "King Abdulaziz is among the greatest figures produced by the Arab world in modern times — combining the courage of a warrior, the wisdom of a ruler, and the generosity of a true Arab.",
+          "author_ar": "أمين الريحاني — مفكر عربي، 1928م",
+          "author_en": "Ameen Rihani — Arab intellectual, 1928 CE",
+          "year": "1928م"
+        }
+      ],
+      "timeline": [
+        { "year": "1876م", "year_en": "1876 CE", "event_ar": "مولد الملك عبدالعزيز في الرياض", "event_en": "Birth of King Abdulaziz in Riyadh" },
+        { "year": "1893م", "year_en": "1893 CE", "event_ar": "لجوء الأسرة السعودية إلى الكويت بعد هزيمة", "event_en": "Al Saud family seeks exile in Kuwait after defeat" },
+        { "year": "1902م", "year_en": "1902 CE", "event_ar": "استعادة الرياض وفتح قصر المصمك", "event_en": "Recapture of Riyadh and conquest of Masmak Fort" },
+        { "year": "1924م", "year_en": "1924 CE", "event_ar": "توحيد نجد والحجاز تحت رايته", "event_en": "Unification of Najd and Hijaz under his banner" },
+        { "year": "1932م", "year_en": "1932 CE", "event_ar": "إعلان المملكة العربية السعودية الموحدة", "event_en": "Proclamation of the unified Kingdom of Saudi Arabia" },
+        { "year": "1953م", "year_en": "1953 CE", "event_ar": "وفاة المؤسس وتوليه خمسين عاماً للحكم", "event_en": "Death of the founder after fifty years of leadership" }
+      ],
+      "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ibn_Saud.jpg/800px-Ibn_Saud.jpg", "caption_ar": "الملك عبدالعزيز — صورة رسمية", "caption_en": "King Abdulaziz — Official portrait", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/King_Abdulaziz_and_Roosevelt.jpg/1280px-King_Abdulaziz_and_Roosevelt.jpg", "caption_ar": "الملك عبدالعزيز مع الرئيس روزفلت عام 1945م", "caption_en": "King Abdulaziz with President Roosevelt, 1945 CE", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/King_Abdulaziz_young.jpg/800px-King_Abdulaziz_young.jpg", "caption_ar": "الملك عبدالعزيز في شبابه", "caption_en": "King Abdulaziz in his youth", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/King_Abdulaziz_Museum_Riyadh.jpg/1280px-King_Abdulaziz_Museum_Riyadh.jpg", "caption_ar": "متحف الملك عبدالعزيز في الرياض", "caption_en": "King Abdulaziz Museum in Riyadh", "source": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "hima-rock-art",
+      "name_ar": "نقوش الحِمة (جبة ونجران)",
+      "name_en": "Hima Rock Art (Jubbah & Najran)",
+      "type": "mural_inscription",
+      "region_id": "najran",
+      "location_ar": "نجران وحائل، المملكة العربية السعودية",
+      "location_en": "Najran & Hail, Saudi Arabia",
+      "period_ar": "10000 ق.م حتى العصر الإسلامي",
+      "period_en": "10,000 BCE to the Islamic Era",
+      "description_short_ar": "أضخم وأقدم مجموعة نقوش صخرية في شبه الجزيرة العربية",
+      "description_short_en": "The largest and oldest collection of rock inscriptions in the Arabian Peninsula",
+      "unesco": true,
+      "story_ar": "في وادي الحِمة جنوب نجران، وعلى صخور جبة قرب حائل، تمتد جداريات صخرية عملاقة تروي ملحمة الإنسان العربي عبر اثني عشر ألف سنة. هذه النقوش ليست مجرد رسومات — إنها كتاب مفتوح نقشه أجدادنا على الحجر ليحكوا قصص حياتهم، وحيواناتهم، وصيدهم، وحروبهم، وآلهتهم. تضم المنطقة أكثر من ثلاثة آلاف لوح صخري تزخر بصور الجمال والخيل والأبقار الوحشية والأسود والنعام — حيوانات عاشت في شبه الجزيرة حين كانت سافانا خضراء قبل آلاف السنين. وبجانب الصور، تنتشر كتابات بالخط الثمودي القديم والعربي المبكر، وهي من أقدم أشكال الكتابة العربية المكتشفة حتى اليوم. في عام 2021م تم تسجيل نقوش الحِمة على قائمة التراث العالمي لليونسكو لتُصبح ثالث موقع سعودي في هذه القائمة المرموقة، ودليلاً حياً على أن الإنسان في الجزيرة العربية يروي قصته منذ فجر التاريخ.",
+      "story_en": "In Wadi Hima south of Najran, and on the rocks of Jubbah near Hail, enormous rock murals extend, narrating the epic of the Arabian human across twelve thousand years. These inscriptions are not mere drawings — they are an open book carved by our ancestors in stone to tell the stories of their lives, their animals, their hunts, their wars, and their gods. The area contains more than three thousand rock panels teeming with images of camels, horses, wild cattle, lions, and ostriches — animals that lived in the peninsula when it was green savanna thousands of years ago. Alongside the images, writings in the ancient Thamudic script and early Arabic are scattered, among the oldest forms of Arabic writing discovered to date. In 2021 CE, Hima Rock Art was inscribed on UNESCO's World Heritage List, becoming Saudi Arabia's third site on this prestigious list and living proof that humans in the Arabian Peninsula have been telling their story since the dawn of history.",
+      "shahid": [
+        {
+          "quote_ar": "نقوش الحِمة هي بحق ذاكرة الإنسان العربي الأولى؛ في هذه الجداريات الصخرية العملاقة تجد حضارةً كاملةً دُوِّنت بالصخر قبل أن يُعرف الحبر والقلم.",
+          "quote_en": "Hima inscriptions are truly the first memory of the Arabian human — in these giant rock murals you find an entire civilization recorded in stone before ink and pen were known.",
+          "author_ar": "عبدالرحمن الطيب الأنصاري — عالم آثار سعودي، 1990م",
+          "author_en": "Abdulrahman al-Tayyib al-Ansari — Saudi archaeologist, 1990 CE",
+          "year": "1990م"
+        },
+        {
+          "quote_ar": "هذه النقوش تُثبت أن الكتابة العربية لم تنشأ فجأة بل تطورت عبر آلاف السنين من رسوم الحِمة إلى الخط الثمودي إلى العربي البائد وأخيراً للعربي الحالي.",
+          "quote_en": "These inscriptions prove that Arabic writing did not arise suddenly but evolved over thousands of years from the Hima drawings to Thamudic script to ancient Arabic and finally to modern Arabic.",
+          "author_ar": "المنظمة العربية للتربية والثقافة والعلوم (الأليكسو)، 2021م",
+          "author_en": "Arab League Educational, Cultural and Scientific Organization (ALECSO), 2021 CE",
+          "year": "2021م"
+        }
+      ],
+      "timeline": [
+        { "year": "10000 ق.م", "year_en": "10,000 BCE", "event_ar": "نحت أولى الرسوم الصخرية في منطقة الحِمة", "event_en": "Carving of the first rock drawings in the Hima region" },
+        { "year": "5000 ق.م", "year_en": "5,000 BCE", "event_ar": "تصوير حيوانات كانت تعيش في شبه الجزيرة الخضراء", "event_en": "Depictions of animals that lived in the then-green peninsula" },
+        { "year": "2000 ق.م", "year_en": "2,000 BCE", "event_ar": "ظهور أولى الكتابات الثمودية على الصخور", "event_en": "Appearance of the first Thamudic inscriptions on the rocks" },
+        { "year": "القرن 6م", "year_en": "6th century CE", "event_ar": "كتابة آخر النقوش في العصر الجاهلي وبداية الإسلام", "event_en": "Last inscriptions carved in the pre-Islamic era and early Islam" },
+        { "year": "1968م", "year_en": "1968 CE", "event_ar": "أول توثيق علمي للموقع من قبل خبراء سعوديين", "event_en": "First scientific documentation by Saudi experts" },
+        { "year": "2021م", "year_en": "2021 CE", "event_ar": "تسجيل نقوش الحِمة في قائمة التراث العالمي لليونسكو", "event_en": "Hima Rock Art inscribed on UNESCO World Heritage List" }
+      ],
+      "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Hima_rock_art_Najran.jpg/1280px-Hima_rock_art_Najran.jpg", "caption_ar": "لوحة صخرية تصور جمالاً ومحاربين", "caption_en": "Rock panel depicting camels and warriors", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Hima_Cultural_Area_petroglyphs.jpg/1280px-Hima_Cultural_Area_petroglyphs.jpg", "caption_ar": "نقوش ثمودية وصور حيوانات وأشكال بشرية", "caption_en": "Thamudic inscriptions with animals and human figures", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Jubbah_rock_art_Hail.jpg/1280px-Jubbah_rock_art_Hail.jpg", "caption_ar": "نقوش جبة التاريخية قرب حائل", "caption_en": "Jubbah rock art near Hail", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Saudi_Petroglyphs.jpg/1280px-Saudi_Petroglyphs.jpg", "caption_ar": "مجموعة من الرسوم الصخرية الجدارية", "caption_en": "Collection of rock mural drawings", "source": "Wikimedia Commons" }
+      ]
+    },
+
+    {
+      "id": "bujairi",
+      "name_ar": "حديقة البجيري التراثية (الدرعية)",
+      "name_en": "Al-Bujairi Heritage Park (Diriyah)",
+      "type": "heritage_building",
+      "region_id": "riyadh",
+      "location_ar": "الدرعية، الرياض",
+      "location_en": "Diriyah, Riyadh",
+      "period_ar": "القرن 18م – مُرمَّم 2022م",
+      "period_en": "18th century CE – Restored 2022 CE",
+      "description_short_ar": "قرية البجيري التاريخية تُعاد إلى الحياة كمركز ثقافي وتراثي عالمي",
+      "description_short_en": "The historic Bujairi village brought back to life as a global cultural and heritage destination",
+      "unesco": true,
+      "story_ar": "البجيري ليست مجرد حديقة — إنها معانقة بين الماضي والحاضر في قلب الدرعية. هذه القرية التاريخية التي نشأت جنباً إلى جنب مع حي الطريف، كانت موطناً للعلماء والتجار والحرفيين الذين أسهموا في بناء الدولة السعودية الأولى. أبنيتها الطينية الجميلة بتصاميمها النجدية الأصيلة تحمل في كل زاوية منها شيئاً من تراث ثمين. بعد سقوط الدرعية عام 1818م، اندثرت البجيري ببطء وتحولت إلى أطلال تُخفي تاريخها تحت التراب. لكن في إطار مشروع الدرعية العملاق الذي أطلقته رؤية 2030، أُعيدت قرية البجيري إلى الحياة بشكل مذهل. اليوم تقف البجيري كنموذج عالمي لتطوير التراث، جامعةً بين أصالة العمارة الطينية النجدية وتجارب المطاعم والمقاهي العالمية، في مشهد يجمع بين الماضي والمستقبل. في 2022م حضر خلال الأشهر الأولى لافتتاحها ملايين الزوار، مما يثبت أن التراث حين يُقدَّم بأسلوب عصري لا يفقد بريقه بل يزداد سحراً.",
+      "story_en": "Al-Bujairi is not merely a park — it is an embrace between past and present in the heart of Diriyah. This historic village, which grew alongside the At-Turaif district, was home to scholars, merchants, and craftsmen who contributed to building the First Saudi State. Its beautiful mud-brick buildings with their authentic Najdi designs carry in every corner something of priceless heritage. After Diriyah's fall in 1818 CE, Bujairi slowly fell into ruin, its history buried beneath the dust. But as part of the massive Diriyah project launched under Vision 2030, Bujairi village was brought back to life in an amazing way. Today Al-Bujairi stands as a world-class model for heritage development, combining the authenticity of Najdi mud architecture with global restaurant and café experiences — a scene merging past and future. In 2022 CE, millions of visitors attended in the first months of its opening, proving that heritage, when presented in a contemporary manner, does not lose its luster but gains more magic.",
+      "shahid": [
+        {
+          "quote_ar": "البجيري نموذج استثنائي يُثبت أن صون التراث والتنمية الاقتصادية ليسا نقيضين بل يُكمل أحدهما الآخر. العالم يحتاج المزيد من هذه التجارب.",
+          "quote_en": "Al-Bujairi is an exceptional model proving that heritage preservation and economic development are not opposites but complement one another. The world needs more of these experiences.",
+          "author_ar": "أودري أزولاي — المديرة العامة لليونسكو، 2023م",
+          "author_en": "Audrey Azoulay — UNESCO Director-General, 2023 CE",
+          "year": "2023م"
+        }
+      ],
+      "timeline": [
+        { "year": "القرن 18م", "year_en": "18th century CE", "event_ar": "نشأة قرية البجيري بجوار حي الطريف", "event_en": "Establishment of Bujairi village alongside At-Turaif district" },
+        { "year": "1818م", "year_en": "1818 CE", "event_ar": "سقوط الدرعية وبدء تدهور قرية البجيري", "event_en": "Fall of Diriyah and beginning of Bujairi village's decline" },
+        { "year": "2010م", "year_en": "2010 CE", "event_ar": "تسجيل البجيري ضمن منطقة التراث العالمي لليونسكو", "event_en": "Bujairi registered as part of UNESCO World Heritage area" },
+        { "year": "2019م", "year_en": "2019 CE", "event_ar": "انطلاق أعمال ترميم وإعادة تأهيل البجيري الشاملة", "event_en": "Launch of comprehensive restoration and rehabilitation of Bujairi" },
+        { "year": "2022م", "year_en": "2022 CE", "event_ar": "افتتاح حديقة البجيري التراثية للزوار", "event_en": "Opening of Al-Bujairi Heritage Park to visitors" },
+        { "year": "2023م", "year_en": "2023 CE", "event_ar": "استقبال ملايين الزوار وتحقيق انتشار عالمي واسع", "event_en": "Welcoming millions of visitors and achieving global recognition" }
+      ],
+      "reference_images": [
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Al_Bujairi_Heritage_Park_Diriyah.jpg/1280px-Al_Bujairi_Heritage_Park_Diriyah.jpg", "caption_ar": "منظر حديقة البجيري التراثية في الدرعية", "caption_en": "View of Al-Bujairi Heritage Park in Diriyah", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bujairi_mud_architecture.jpg/1280px-Bujairi_mud_architecture.jpg", "caption_ar": "العمارة الطينية النجدية الأصيلة في البجيري", "caption_en": "Authentic Najdi mud-brick architecture in Bujairi", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Diriyah_Bujairi_at_night.jpg/1280px-Diriyah_Bujairi_at_night.jpg", "caption_ar": "البجيري ليلاً في أبهى حللها", "caption_en": "Bujairi at night in all its splendor", "source": "Wikimedia Commons" },
+        { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bujairi_wadi_hanifah.jpg/1280px-Bujairi_wadi_hanifah.jpg", "caption_ar": "البجيري على ضفاف وادي حنيفة", "caption_en": "Bujairi on the banks of Wadi Hanifah", "source": "Wikimedia Commons" }
       ]
     }
   ]
