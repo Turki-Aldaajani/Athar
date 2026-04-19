@@ -3,6 +3,7 @@ import { useState } from 'react';
 import HomePage from './pages/HomePage';
 import ResultPage from './pages/ResultPage';
 import RegionsPage from './pages/RegionsPage';
+import ExplorePage from './pages/ExplorePage';
 
 export default function App() {
   const [language, setLanguage] = useState('ar');
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/" element={<HomePage lang={language} setLang={setLanguage} />} />
           <Route path="/result" element={<ResultPage lang={language} setLang={setLanguage} />} />
           <Route path="/regions" element={<RegionsPage lang={language} setLang={setLanguage} />} />
+          <Route path="/explore" element={<ExplorePage lang={language} setLang={setLanguage} />} />
         </Routes>
       </div>
     </Router>

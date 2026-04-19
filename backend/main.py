@@ -272,6 +272,84 @@ async def recognize_landmark(req: RecognizeRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+class SuggestRequest(BaseModel):
+    text: str
+    language: str = "ar"
+
+
+def build_heritage_context():
+    """Build a compact summary of all heritage sites for the LLM."""
+    lines = []
+    # Landmarks
+    for lm in LANDMARKS:
+        lines.append(
+            f"- {lm['name_ar']} ({lm['name_en']}): {lm.get('description_ar', '')[:120]}"
+        )
+    # Sub-regions from regions.json
+    regions_path = Path(__file__).parent.parent / "frontend" / "src" / "data" / "regions.json"
+    if regions_path.exists():
+        with open(regions_path, encoding="utf-8") as f:
+            rdata = json.load(f)
+        for sub in rdata.get("region", {}).get("sub_regions", []):
+            sites = sub.get("heritage_sites", [])
+            for site in sites:
+                lines.append(
+                    f"- {site['name_ar']} ({site['name_en']}) في {sub['name_ar']}: {site.get('desc_ar','')[:100]}"
+                )
+    return "\n".join(lines)
+
+
+HERITAGE_CONTEXT = build_heritage_context()
+
+
+@app.post("/api/suggest")
+async def suggest_places(req: SuggestRequest):
+    if not groq_client:
+        raise HTTPException(status_code=503, detail="Groq API not configured")
+
+    lang = req.language
+    sys_prompt = (
+        "أنت مرشد تراثي سعودي ذكي ومتخصص. مهمتك أن تحلل تفضيلات المستخدم وتقترح أماكن تراثية مناسبة "
+        "من قائمة المواقع التراثية السعودية المتوفرة. "
+        "أجب دائماً بـ JSON فقط بدون أي نص إضافي. "
+        "أعد مصفوفة JSON باسم 'suggestions' تحتوي على 3-5 عناصر بهذا الشكل:\n"
+        '{"suggestions": [{"name_ar": "...", "name_en": "...", "location_ar": "...", "location_en": "...", '
+        '"reason_ar": "...", "reason_en": "...", "type_ar": "...", "type_en": "...", "match_score": 90}]}\n'
+        "match_score هو نسبة مئوية تعكس مدى تطابق الموقع مع تفضيلات المستخدم.\n"
+        "reason_ar يجب أن يشرح لماذا هذا المكان مناسب لتفضيلات هذا المستخدم تحديداً في جملة واحدة."
+    )
+
+    user_prompt = (
+        f"تفضيلات المستخدم: {req.text}\n\n"
+        f"قائمة المواقع التراثية المتاحة:\n{HERITAGE_CONTEXT}\n\n"
+        "اقترح أنسب 3-5 مواقع بناءً على تفضيلاته وأعد JSON فقط."
+    )
+
+    try:
+        resp = groq_client.chat.completions.create(
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
+            messages=[
+                {"role": "system", "content": sys_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.4,
+            max_tokens=1200,
+        )
+        raw = resp.choices[0].message.content.strip()
+        # Strip markdown fences if present
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        result = json.loads(raw)
+        return {"ok": True, "suggestions": result.get("suggestions", [])}
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="Failed to parse AI response")
+    except Exception as e:
+        print(f"Suggest error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 FRONTEND_DIST = Path(__file__).parent.parent / "frontend" / "dist"
 REF_IMAGES_DIR = Path(__file__).parent / "data" / "reference_images"
 IMAGES_DIR = Path(__file__).parent / "data" / "images"

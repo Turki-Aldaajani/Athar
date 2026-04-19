@@ -98,24 +98,54 @@ export default function HomePage({ lang, setLang }) {
         </div>
       </section>
 
-      {/* Regions CTA */}
-      <section className="text-center pb-16 px-4">
-        <div className="bg-heritage-beige rounded-3xl max-w-xl mx-auto p-8 border border-heritage-beige-dark">
-          <p className="text-heritage-brown font-bold text-xl mb-2">
-            {lang === 'ar' ? 'هل تريد استكشاف مناطق المملكة؟' : 'Want to explore Saudi regions?'}
-          </p>
-          <p className="text-heritage-brown-md text-sm mb-5">
-            {lang === 'ar'
-              ? 'تعرف على تراث وثقافة كل منطقة بالتفصيل'
-              : 'Learn about the heritage and culture of each region'}
-          </p>
-          <button
-            onClick={() => navigate('/regions')}
-            className="px-8 py-3 bg-heritage-green text-white font-bold rounded-full hover:bg-heritage-green-md transition shadow-md inline-flex items-center gap-2"
+      {/* CTA Cards */}
+      <section className="pb-16 px-4">
+        <div className="max-w-xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+          {/* Regions CTA */}
+          <div className="bg-heritage-beige rounded-3xl p-6 border border-heritage-beige-dark text-center flex flex-col items-center">
+            <span className="material-icons text-heritage-green mb-2" style={{ fontSize: '2rem' }}>map</span>
+            <p className="text-heritage-brown font-bold text-base mb-1">
+              {lang === 'ar' ? 'استكشف المناطق' : 'Explore Regions'}
+            </p>
+            <p className="text-heritage-brown-md text-xs mb-4">
+              {lang === 'ar'
+                ? 'تراث وثقافة كل منطقة بالتفصيل'
+                : 'Heritage & culture of each region'}
+            </p>
+            <button
+              onClick={() => navigate('/regions')}
+              className="px-6 py-2.5 bg-heritage-green text-white font-bold rounded-full hover:bg-heritage-green-md transition shadow-md inline-flex items-center gap-2 text-sm"
+            >
+              <span className="material-icons text-sm">explore</span>
+              {lang === 'ar' ? 'تصفح' : 'Browse'}
+            </button>
+          </div>
+
+          {/* Explore/Suggest CTA */}
+          <div
+            className="rounded-3xl p-6 border text-center flex flex-col items-center"
+            style={{ background: 'linear-gradient(135deg, #2d4a1e10, #5a3a1a08)', borderColor: '#c4933a55' }}
           >
-            <span className="material-icons text-base">explore</span>
-            {lang === 'ar' ? 'استكشف المناطق' : 'Explore Regions'}
-          </button>
+            <span className="material-icons text-heritage-gold mb-2" style={{ fontSize: '2rem' }}>travel_explore</span>
+            <p className="text-heritage-brown font-bold text-base mb-1">
+              {lang === 'ar' ? 'مرشدك الشخصي' : 'Personal Guide'}
+            </p>
+            <p className="text-heritage-brown-md text-xs mb-4">
+              {lang === 'ar'
+                ? 'اكتب تفضيلاتك واحصل على اقتراحات ذكية'
+                : 'Write your preferences & get smart suggestions'}
+            </p>
+            <button
+              onClick={() => navigate('/explore')}
+              className="px-6 py-2.5 text-white font-bold rounded-full transition shadow-md inline-flex items-center gap-2 text-sm"
+              style={{ background: 'linear-gradient(135deg, #5a3a1a, #8B6914)' }}
+            >
+              <span className="material-icons text-sm">auto_awesome</span>
+              {lang === 'ar' ? 'جرّب الآن' : 'Try Now'}
+            </button>
+          </div>
+
         </div>
       </section>
     </div>
