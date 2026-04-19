@@ -84,19 +84,19 @@
         "id": "ushaiqer",
         "name_ar": "أشيقر",
         "name_en": "Ushaiqer",
-        "tagline_ar": "مهبط رأس محمد بن عبدالوهاب ودرة قرى نجد",
+        "tagline_ar": "مسقط رأس محمد بن عبدالوهاب ودرة قرى نجد",
         "tagline_en": "Birthplace of Sheikh Ibn Abd al-Wahhab & Jewel of Najd",
         "hero_image": "/images/ushaiqer_real.jpg",
         "color": "#3d1f0a",
-        "overview_ar": "أشيقر قرية أثرية تقع في محافظة شقراء، تحتل مكانةً تاريخية بالغة الأهمية كونها مهبط رأس الشيخ محمد بن عبدالوهاب، مجدّد الدعوة الإسلامية في الجزيرة العربية الذي أرسى الأساس الديني للدولة السعودية الأولى. تُعدّ أشيقر نموذجاً فريداً من العمارة الطينية النجدية المحافظ عليها، إذ بُنيت منازلها بالطين والحجر قبل مئات السنين وما زالت واقفة تتحدى الزمن بزخارفها الطينية البيضاء على الجدران البنية.",
+        "overview_ar": "أشيقر قرية أثرية تقع في محافظة شقراء، تحتل مكانةً تاريخية بالغة الأهمية كونها مسقط رأس الشيخ محمد بن عبدالوهاب، مجدّد الدعوة الإسلامية في الجزيرة العربية الذي أرسى الأساس الديني للدولة السعودية الأولى. تُعدّ أشيقر نموذجاً فريداً من العمارة الطينية النجدية المحافظ عليها، إذ بُنيت منازلها بالطين والحجر قبل مئات السنين وما زالت واقفة تتحدى الزمن بزخارفها الطينية البيضاء على الجدران البنية.",
         "overview_en": "Ushaiqer is an archaeological village in Shaqra Governorate with profound historical significance as the birthplace of Sheikh Muhammad ibn Abd al-Wahhab — the Islamic reform scholar who laid the religious foundation of the First Saudi State. Ushaiqer is also a unique preserved example of Najdi mud architecture, its houses built of mud and stone hundreds of years ago and still standing, adorned with distinctive white mud ornaments.",
         "heritage_sites": [
           {
-            "name_ar": "موقع مهبط الشيخ محمد بن عبدالوهاب",
+            "name_ar": "موقع مسقط رأس الشيخ محمد بن عبدالوهاب",
             "name_en": "Sheikh Muhammad ibn Abd al-Wahhab Site",
             "type_ar": "موقع تاريخي ديني",
             "type_en": "Historic Religious Site",
-            "desc_ar": "أشيقر هي مهبط رأس الشيخ محمد بن عبدالوهاب (1115–1206هـ)، مجدّد الدعوة الإسلامية الذي انطلقت من هذه المنطقة شرارة الإصلاح الديني التي أسست للدولة السعودية الأولى بالتحالف مع الإمام محمد بن سعود في الدرعية عام 1157هـ / 1744م",
+            "desc_ar": "أشيقر هي مسقط رأس الشيخ محمد بن عبدالوهاب (1115–1206هـ)، مجدّد الدعوة الإسلامية الذي انطلقت من هذه المنطقة شرارة الإصلاح الديني التي أسست للدولة السعودية الأولى بالتحالف مع الإمام محمد بن سعود في الدرعية عام 1157هـ / 1744م",
             "desc_en": "Ushaiqer is the birthplace of Sheikh Muhammad ibn Abd al-Wahhab (1703–1792 CE), the Islamic reform scholar whose call sparked a religious revival from this region. His alliance with Imam Muhammad ibn Saud in Diriyah in 1744 CE founded the First Saudi State — a pivotal moment in Arabian Peninsula history",
             "icon": "account_balance"
           },
@@ -138,7 +138,7 @@
           }
         ],
         "cultural_notes_ar": [
-          "أشيقر هي مهبط رأس الشيخ محمد بن عبدالوهاب مجدّد الدعوة الإسلامية في الجزيرة العربية",
+          "أشيقر هي مسقط رأس الشيخ محمد بن عبدالوهاب مجدّد الدعوة الإسلامية في الجزيرة العربية",
           "من هنا انطلقت الدعوة التي أسست للدولة السعودية الأولى بتحالف الدرعية الشهير عام 1744م",
           "أشيقر تعني 'الصغيرة الصفراء' نسبة إلى لون ترابها الذهبي المائل للصفرة",
           "الزخارف الطينية البيضاء على واجهات البيوت كانت تُجدَّد في المناسبات والأعياد",
