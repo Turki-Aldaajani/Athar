@@ -52,12 +52,12 @@ export default function ResultPage({ lang, setLang }) {
 
         {/* Story */}
         <section>
-          <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+          <h2 className="text-2xl font-black text-heritage-brown mb-4 flex items-center gap-2">
             {lang === 'ar' ? 'القصة التاريخية' : 'Historical Story'}
             <span className="material-icons text-heritage-gold">auto_stories</span>
           </h2>
           <div className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm p-6">
-            <p className="text-heritage-brown leading-loose text-right whitespace-pre-wrap">
+            <p className="text-heritage-brown leading-loose whitespace-pre-wrap">
               {lang === 'ar' ? landmark.story_ar : landmark.story_en}
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function ResultPage({ lang, setLang }) {
         {/* Gallery */}
         {landmark.reference_images?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 flex items-center gap-2">
               {lang === 'ar' ? 'معرض الصور' : 'Photo Gallery'}
               <span className="material-icons text-heritage-gold">photo_library</span>
             </h2>
@@ -77,7 +77,7 @@ export default function ResultPage({ lang, setLang }) {
         {/* Timeline */}
         {landmark.timeline?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 flex items-center gap-2">
               {lang === 'ar' ? 'تسلسل الأحداث' : 'Timeline'}
               <span className="material-icons text-heritage-gold">timeline</span>
             </h2>
@@ -88,7 +88,7 @@ export default function ResultPage({ lang, setLang }) {
         {/* Shahid — Historical Testimonials */}
         {landmark.shahid?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 flex items-center gap-2">
               {lang === 'ar' ? 'شاهد تاريخي' : 'Historical Witnesses'}
               <span className="material-icons text-heritage-gold">record_voice_over</span>
             </h2>
@@ -103,16 +103,16 @@ export default function ResultPage({ lang, setLang }) {
                   <div className="p-6">
                     {/* Large opening quote mark */}
                     <div
-                      className="text-5xl leading-none text-heritage-gold font-serif mb-2 text-right"
+                      className="text-5xl leading-none text-heritage-gold font-serif mb-2 "
                       aria-hidden="true"
                     >
                       "
                     </div>
-                    <p className="text-heritage-brown leading-loose text-right text-lg italic mb-4">
+                    <p className="text-heritage-brown leading-loose text-lg italic mb-4">
                       {lang === 'ar' ? item.quote_ar : item.quote_en}
                     </p>
-                    <div className="flex items-center justify-end gap-3 border-t border-heritage-beige-dark pt-4">
-                      <div className="text-right">
+                    <div className="flex items-center justify-start gap-3 border-t border-heritage-beige-dark pt-4">
+                      <div>
                         <p className="text-xs font-bold text-heritage-brown-md">
                           {lang === 'ar' ? item.author_ar : item.author_en}
                         </p>

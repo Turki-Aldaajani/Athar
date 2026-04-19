@@ -45,8 +45,8 @@ export default function RegionsPage({ lang, setLang }) {
         style={{ backgroundImage: `url(${region.hero_image})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-        <div className="absolute bottom-0 right-0 left-0 p-6 text-white text-right">
-          <div className="flex items-center justify-end gap-2 mb-1">
+        <div className="absolute bottom-0 right-0 left-0 p-6 text-white ">
+          <div className="flex items-center justify-start gap-2 mb-1">
             <span className="material-icons text-heritage-gold">map</span>
             <span className="text-heritage-gold text-sm font-bold uppercase tracking-widest">
               {lang === 'ar' ? 'استكشف المنطقة' : 'Explore the Region'}
@@ -64,20 +64,20 @@ export default function RegionsPage({ lang, setLang }) {
       {/* Overview */}
       <div className="container mx-auto px-4 py-6 max-w-3xl">
         <div className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm p-6 mb-6">
-          <p className="text-heritage-brown leading-loose text-right text-base">
+          <p className="text-heritage-brown leading-loose text-base">
             {lang === 'ar' ? region.overview_ar : region.overview_en}
           </p>
         </div>
 
         {/* Did You Know */}
         <div className="bg-heritage-beige rounded-2xl border border-heritage-beige-dark border-r-4 border-r-heritage-gold p-5 mb-8">
-          <h3 className="text-lg font-black text-heritage-brown mb-3 text-right flex items-center justify-end gap-2">
+          <h3 className="text-lg font-black text-heritage-brown mb-3 flex items-center gap-2">
             {lang === 'ar' ? 'هل تعلم؟' : 'Did You Know?'}
             <span className="material-icons text-heritage-gold">lightbulb</span>
           </h3>
           <ul className="space-y-2">
             {(lang === 'ar' ? region.cultural_notes_ar : region.cultural_notes_en).map((note, i) => (
-              <li key={i} className="text-heritage-brown text-right flex gap-2 items-start text-sm leading-relaxed">
+              <li key={i} className="text-heritage-brown flex gap-2 items-start text-sm leading-relaxed">
                 <span className="text-heritage-gold font-bold flex-shrink-0">•</span>
                 <span>{note}</span>
               </li>
@@ -86,7 +86,7 @@ export default function RegionsPage({ lang, setLang }) {
         </div>
 
         {/* Sub-regions */}
-        <h2 className="text-2xl font-black text-heritage-brown mb-5 text-right flex items-center justify-end gap-2">
+        <h2 className="text-2xl font-black text-heritage-brown mb-5 flex items-center gap-2">
           {lang === 'ar' ? 'محافظات وأحياء تراثية' : 'Governorates & Heritage Areas'}
           <span className="material-icons text-heritage-gold">place</span>
         </h2>
@@ -96,7 +96,7 @@ export default function RegionsPage({ lang, setLang }) {
             <button
               key={sub.id}
               onClick={() => setSelectedSub(sub)}
-              className="relative h-52 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:-translate-y-1 border border-heritage-beige-dark text-right w-full"
+              className="relative h-52 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:-translate-y-1 border border-heritage-beige-dark w-full"
             >
               <div
                 className="absolute inset-0 bg-cover bg-center"
