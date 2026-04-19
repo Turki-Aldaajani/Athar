@@ -1,0 +1,219 @@
+{
+  "regions": [
+    {
+      "id": "riyadh",
+      "name_ar": "منطقة الرياض",
+      "name_en": "Riyadh Region",
+      "tagline_ar": "قلب الجزيرة العربية ومهد الدولة السعودية",
+      "tagline_en": "Heart of the Arabian Peninsula and cradle of the Saudi state",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Diriyah_at_turaif_district.jpg/1280px-Diriyah_at_turaif_district.jpg",
+      "overview_ar": "منطقة الرياض هي قلب المملكة العربية السعودية وعاصمتها السياسية والإدارية. من هنا انطلقت شرارة الدولة السعودية الأولى عام 1744م، ومن هنا توحدت الجزيرة العربية تحت راية واحدة. تجمع المنطقة بين الأصالة والحداثة حيث تتعايش المعالم التراثية الطينية مع ناطحات السحاب الشاهقة.",
+      "overview_en": "The Riyadh Region is the heart of Saudi Arabia and its political and administrative capital. From here, the First Saudi State was established in 1744 CE, and from here the Arabian Peninsula unified under one banner. The region blends authenticity and modernity.",
+      "highlights": [
+        {
+          "icon": "🏰",
+          "title_ar": "الدرعية التاريخية",
+          "title_en": "Historic Diriyah",
+          "description_ar": "مهد الدولة السعودية الأولى وأول عواصمها، مسجلة في قائمة التراث العالمي لليونسكو",
+          "description_en": "Cradle of the First Saudi State and its first capital, UNESCO World Heritage"
+        },
+        {
+          "icon": "🏯",
+          "title_ar": "قصر المصمك",
+          "title_en": "Masmak Fort",
+          "description_ar": "الحصن التاريخي الذي شهد توحيد الجزيرة العربية على يد الملك عبدالعزيز عام 1902م",
+          "description_en": "The historic fort that witnessed the unification of Arabia by King Abdulaziz in 1902 CE"
+        },
+        {
+          "icon": "🌆",
+          "title_ar": "العاصمة الحديثة",
+          "title_en": "Modern Capital",
+          "description_ar": "رمز التطور والحداثة في قلب الرياض العصرية",
+          "description_en": "Symbol of development and modernity in the heart of modern Riyadh"
+        }
+      ],
+      "cultural_notes_ar": [
+        "الدرعية كانت مركز الدعوة الإصلاحية للشيخ محمد بن عبدالوهاب",
+        "كلمة الرياض تعني الحدائق والروضات بالعربية",
+        "العمارة النجدية تميزت باستخدام الطين المحلي والخشب في البناء"
+      ],
+      "cultural_notes_en": [
+        "Diriyah was the center of Sheikh Muhammad bin Abdulwahhab reform movement",
+        "The word Riyadh means gardens and meadows in Arabic",
+        "Najdi architecture was distinguished by the use of local mud and wood in construction"
+      ]
+    },
+    {
+      "id": "hijaz",
+      "name_ar": "منطقة الحجاز",
+      "name_en": "Hijaz Region",
+      "tagline_ar": "أرض الحرمين الشريفين وبوابة الحضارات",
+      "tagline_en": "Land of the Two Holy Mosques and gateway of civilizations",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Nasif_House_Jeddah.jpg/1280px-Nasif_House_Jeddah.jpg",
+      "overview_ar": "منطقة الحجاز هي أقدس بقعة على وجه الأرض في الإسلام وموطن مكة المكرمة. عبر القرون كانت الحجاز ملتقى الحضارات والثقافات حيث أفضت طرق الحج والتجارة إلى نسيج ثقافي فريد.",
+      "overview_en": "The Hijaz region is the most sacred place in Islam and home to Makkah. Through the centuries Hijaz was a meeting point of civilizations where pilgrimage and trade routes created a unique cultural tapestry.",
+      "highlights": [
+        {
+          "icon": "🕌",
+          "title_ar": "المسجد الحرام والكعبة المشرفة",
+          "title_en": "Grand Mosque and Holy Kaaba",
+          "description_ar": "أقدس مواقع الإسلام وقبلة المسلمين في كل أنحاء العالم",
+          "description_en": "The most sacred site in Islam and the direction of prayer for Muslims worldwide"
+        },
+        {
+          "icon": "🏘️",
+          "title_ar": "جدة التاريخية",
+          "title_en": "Historic Jeddah",
+          "description_ar": "مدرجة في قائمة التراث العالمي لليونسكو تمثل نموذجاً فريداً للعمارة الحجازية",
+          "description_en": "Listed on UNESCO World Heritage representing a unique model of Hijazi architecture"
+        },
+        {
+          "icon": "⚓",
+          "title_ar": "ميناء جدة التاريخي",
+          "title_en": "Historic Jeddah Port",
+          "description_ar": "بوابة الحجاج والتجار منذ آلاف السنين يربط الشرق بالغرب",
+          "description_en": "Gateway of pilgrims and traders for thousands of years connecting East to West"
+        }
+      ],
+      "cultural_notes_ar": [
+        "الروشان نوافذ خشبية حجازية تسمح بالتهوية وصون الخصوصية",
+        "ثقافة الحجاز تتميز بتنوعها الكبير نتيجة تدفق الحجاج",
+        "الفول المدمس طبق شعبي أصيل في جدة والحجاز"
+      ],
+      "cultural_notes_en": [
+        "The Rawshan is a wooden window allowing ventilation while preserving privacy",
+        "Hijazi culture is characterized by great diversity due to pilgrims from worldwide",
+        "Ful medames is an authentic popular dish in Jeddah and Hijaz"
+      ]
+    },
+    {
+      "id": "asir",
+      "name_ar": "منطقة عسير",
+      "name_en": "Asir Region",
+      "tagline_ar": "جبال السحاب وفنون الألوان الأصيلة",
+      "tagline_en": "Mountains of clouds and authentic arts of colors",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Rijal_Almaa_village.jpg/1280px-Rijal_Almaa_village.jpg",
+      "overview_ar": "منطقة عسير هي جوهرة المملكة العربية السعودية الجنوبية بجبالها الشاهقة وهوائها العليل وفنون القط العسيري.",
+      "overview_en": "Asir Region is the gem of southern Saudi Arabia with towering mountains and the unique Al-Qatt Al-Asiri wall painting art.",
+      "highlights": [
+        {
+          "icon": "🎨",
+          "title_ar": "القط العسيري",
+          "title_en": "Al-Qatt Al-Asiri",
+          "description_ar": "فن تزيين المنازل مسجل في قائمة التراث غير المادي لليونسكو",
+          "description_en": "Art of decorating homes on UNESCO intangible heritage list"
+        },
+        {
+          "icon": "🏔️",
+          "title_ar": "قرية ذي عين الأثرية",
+          "title_en": "Dhee Ain Archaeological Village",
+          "description_ar": "قرية حجرية بيضاء تعود لأكثر من 1000 سنة",
+          "description_en": "White stone village over 1000 years old"
+        },
+        {
+          "icon": "🌿",
+          "title_ar": "قرية رجال ألمع",
+          "title_en": "Rijal Almaa Village",
+          "description_ar": "قرية تراثية رائعة تعكس عمق الحضارة العسيرية",
+          "description_en": "A wonderful heritage village reflecting the depth of Asiri civilization"
+        }
+      ],
+      "cultural_notes_ar": [
+        "المرأة العسيرية مشهورة بفنها في تزيين المنازل بالألوان الطبيعية",
+        "عسير كانت مملكة مستقلة تحت حكم آل عائض قبل توحيد المملكة",
+        "الأزياء الشعبية في عسير تتميز بألوانها الزاهية والتطريز اليدوي"
+      ],
+      "cultural_notes_en": [
+        "Asiri women are famous for decorating homes with natural colors",
+        "Asir was an independent kingdom under Al-Aidh rule before unification",
+        "Folk costumes in Asir are distinguished by bright colors and hand embroidery"
+      ]
+    },
+    {
+      "id": "eastern",
+      "name_ar": "المنطقة الشرقية",
+      "name_en": "Eastern Province",
+      "tagline_ar": "أرض النفط والواحات والحضارات القديمة",
+      "tagline_en": "Land of oil, oases, and ancient civilizations",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Al-Ahsa_oasis.jpg/1280px-Al-Ahsa_oasis.jpg",
+      "overview_ar": "المنطقة الشرقية هي أكبر منطقة إدارية في المملكة. تطل على الخليج العربي وتضم واحة الأحساء المسجلة في التراث العالمي لليونسكو.",
+      "overview_en": "The Eastern Province is the largest administrative region in Saudi Arabia. It overlooks the Arabian Gulf and includes Al-Ahsa Oasis inscribed on UNESCO World Heritage.",
+      "highlights": [
+        {
+          "icon": "🌴",
+          "title_ar": "واحة الأحساء",
+          "title_en": "Al-Ahsa Oasis",
+          "description_ar": "أكبر واحة نخيل في العالم مسجلة في التراث العالمي لليونسكو منذ 2018م",
+          "description_en": "The world largest date palm oasis on UNESCO World Heritage List since 2018"
+        },
+        {
+          "icon": "🛢️",
+          "title_ar": "الظهران والصناعة النفطية",
+          "title_en": "Dhahran and the Oil Industry",
+          "description_ar": "مهد الصناعة النفطية السعودية ومقر أرامكو السعودية",
+          "description_en": "Birthplace of Saudi oil industry and headquarters of Saudi Aramco"
+        },
+        {
+          "icon": "🏖️",
+          "title_ar": "شواطئ الخليج العربي",
+          "title_en": "Arabian Gulf Beaches",
+          "description_ar": "شواطئ رملية جميلة تمتد على ساحل الخليج",
+          "description_en": "Beautiful sandy beaches stretching along the Arabian Gulf coast"
+        }
+      ],
+      "cultural_notes_ar": [
+        "الأحساء تنتج أجود أنواع التمور وأشهرها تمر الخلاص",
+        "اكتشاف النفط في الدمام عام 1938م غيّر مسار التاريخ الحديث",
+        "الفخار الأحسائي من أعرق الحرف اليدوية في المنطقة"
+      ],
+      "cultural_notes_en": [
+        "Al-Ahsa produces the finest dates including the famous Khalas variety",
+        "Discovery of oil in Dhahran in 1938 changed the course of modern history",
+        "Ahsa pottery is among the most ancient handicrafts in the region"
+      ]
+    },
+    {
+      "id": "madinah",
+      "name_ar": "منطقة المدينة المنورة",
+      "name_en": "Madinah Region",
+      "tagline_ar": "مدينة النبي ونور الإسلام",
+      "tagline_en": "City of the Prophet and light of Islam",
+      "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Al-Masjid_al-Nabawi.jpg/1280px-Al-Masjid_al-Nabawi.jpg",
+      "overview_ar": "المدينة المنورة هي ثاني أقدس مدينة في الإسلام ومقر مسجد النبي محمد صلى الله عليه وسلم. المنطقة تضم أيضاً العُلا ومدائن صالح الأثرية.",
+      "overview_en": "Madinah is the second holiest city in Islam and home to the Prophet Muhammad mosque. The region also includes Al-Ula and Hegra with breathtaking Nabataean carvings.",
+      "highlights": [
+        {
+          "icon": "🕌",
+          "title_ar": "المسجد النبوي الشريف",
+          "title_en": "The Prophet Mosque",
+          "description_ar": "ثاني أقدس مسجد في الإسلام وروضة من رياض الجنة",
+          "description_en": "The second most sacred mosque in Islam"
+        },
+        {
+          "icon": "🗿",
+          "title_ar": "مدائن صالح",
+          "title_en": "Hegra",
+          "description_ar": "أول موقع سعودي مدرج في التراث العالمي لليونسكو",
+          "description_en": "First Saudi site inscribed on UNESCO World Heritage List"
+        },
+        {
+          "icon": "🏜️",
+          "title_ar": "العُلا التاريخية",
+          "title_en": "Historic Al-Ula",
+          "description_ar": "واحة تجمع الطبيعة الخلابة والتاريخ العريق",
+          "description_en": "Oasis combining stunning nature and ancient history"
+        }
+      ],
+      "cultural_notes_ar": [
+        "المدينة المنورة هي الدولة الإسلامية الأولى في التاريخ",
+        "التمر المدني من أجود أنواع التمور وله قيمة دينية خاصة",
+        "الهجرة النبوية من مكة إلى المدينة كانت نقطة تحول في الإسلام"
+      ],
+      "cultural_notes_en": [
+        "Madinah was the first Islamic state in history",
+        "Madinah dates are among the finest varieties with special religious value",
+        "The Prophet migration from Makkah to Madinah was a turning point in Islamic history"
+      ]
+    }
+  ]
+}
