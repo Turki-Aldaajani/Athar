@@ -780,6 +780,91 @@
           "source": "Athar Heritage"
         }
       ]
+    },
+    {
+      "id": "edge-of-the-world",
+      "name_ar": "حافة العالم",
+      "name_en": "Edge of the World",
+      "region_ar": "منطقة الرياض",
+      "region_en": "Riyadh Region",
+      "location_ar": "شمال غرب الرياض — جبل فهرين، 90 كم من العاصمة",
+      "location_en": "Northwest of Riyadh — Jebel Fihrayn, 90km from the capital",
+      "type_ar": "موقع طبيعي أثري",
+      "type_en": "Natural & Archaeological Site",
+      "period_ar": "ما قبل التاريخ حتى اليوم",
+      "period_en": "Prehistoric to Present",
+      "description_ar": "حافة العالم أو جبل فهرين هو أحد أبرز الظواهر الجيولوجية الطبيعية في المملكة العربية السعودية وشبه الجزيرة العربية. يقع على بُعد نحو 90 كيلومتراً شمال غرب الرياض، وهو جرف صخري شاهق يبلغ ارتفاعه نحو 300 متر فوق سطح الصحراء المنبسطة. يُشكّل هذا الجرف الرهيب جزءاً من جبال طويق الشهيرة، ويمتد لمئات الكيلومترات. يُعدّ من أكثر الوجهات السياحية الطبيعية شعبيةً في المملكة، لا سيما في المواسم الباردة، حيث يمنح زواره منظراً خلاباً يمتد حتى يتلاشى في الأفق، مما يمنحه اسمه الشعري: 'حافة العالم'.",
+      "description_en": "Edge of the World (Jebel Fihrayn) is one of Saudi Arabia's most dramatic natural geological formations, located about 90km northwest of Riyadh. It is a towering 300-meter escarpment rising above the flat desert — part of the Tuwaiq Mountains range stretching hundreds of kilometers. One of the Kingdom's most popular natural destinations, especially in cooler seasons, it offers breathtaking views that stretch endlessly to the horizon, earning its poetic name: 'Edge of the World'.",
+      "historical_significance_ar": "المنطقة المحيطة بجبل فهرين وجبال طويق كانت تمر بها قوافل التجارة القديمة، وتحتوي الصخور المحيطة على نقوش ثمودية وليحيانية تعود لآلاف السنين. كان البدو يستخدمون هذه الجبال كنقاط مراقبة استراتيجية وملاجئ طبيعية.",
+      "historical_significance_en": "The area around Jebel Fihrayn and the Tuwaiq Mountains was crossed by ancient trade caravans. The surrounding rocks contain Thamudic and Lihyanite inscriptions dating back thousands of years. Bedouins used these mountains as strategic lookout points and natural shelters.",
+      "timeline": [
+        {
+          "year_ar": "ما قبل 3000 ق.م",
+          "year_en": "Before 3000 BCE",
+          "event_ar": "أقدم النقوش الصخرية الثمودية على صخور جبل فهرين — شواهد على وجود بشري قديم",
+          "event_en": "Earliest Thamudic rock inscriptions on Jebel Fihrayn — evidence of ancient human presence"
+        },
+        {
+          "year_ar": "القرن الأول الهجري",
+          "year_en": "7th Century CE",
+          "event_ar": "استخدمت جبال طويق معالم ملاحة للقوافل التجارية بين اليمامة والحجاز",
+          "event_en": "Tuwaiq Mountains used as navigation landmarks for trade caravans between Yamama and Hejaz"
+        },
+        {
+          "year_ar": "2000م",
+          "year_en": "2000s",
+          "event_ar": "اكتشاف الموقع سياحياً من قِبَل مجموعات الرحالة السعوديين ثم انتشاره عالمياً",
+          "event_en": "Discovery as a tourism destination by Saudi adventurers, then global spread"
+        },
+        {
+          "year_ar": "2016م",
+          "year_en": "2016",
+          "event_ar": "إدراج المنطقة ضمن مبادرات تطوير السياحة الطبيعية في إطار رؤية 2030",
+          "event_en": "Area included in natural tourism development initiatives under Vision 2030"
+        }
+      ],
+      "gallery_images": [
+        {
+          "url": "/images/edge_world_scene.jpg",
+          "caption_ar": "جرف حافة العالم — منظر غروب فوق الصحراء النجدية",
+          "caption_en": "Edge of the World escarpment — sunset view over the Najdi desert",
+          "source": "Athar Heritage"
+        }
+      ],
+      "reference_images": [
+        {
+          "url": "/images/edge_world_scene.jpg",
+          "caption_ar": "مشهد توضيحي لحافة العالم",
+          "caption_en": "Illustrative scene of Edge of the World",
+          "source": "Athar Heritage"
+        }
+      ],
+      "testimonials": [
+        {
+          "name_ar": "رحّالة سعودي",
+          "name_en": "Saudi Explorer",
+          "role_ar": "من المكتشفين الأوائل",
+          "role_en": "Among the first explorers",
+          "quote_ar": "حين وصلنا إلى الحافة للمرة الأولى، توقفنا جميعاً صامتين. لا توجد كلمات تصف اللحظة التي ترى فيها العالم ينتهي عند قدميك.",
+          "quote_en": "When we reached the edge for the first time, we all fell silent. There are no words to describe the moment you see the world end at your feet."
+        }
+      ],
+      "tags_ar": [
+        "طبيعة",
+        "جيولوجيا",
+        "رحلات",
+        "نقوش صخرية",
+        "جبال طويق",
+        "مغامرة"
+      ],
+      "tags_en": [
+        "nature",
+        "geology",
+        "hiking",
+        "rock inscriptions",
+        "Tuwaiq Mountains",
+        "adventure"
+      ]
     }
   ]
 }

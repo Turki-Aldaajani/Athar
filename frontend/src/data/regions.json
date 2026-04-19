@@ -300,6 +300,15 @@
             "desc_ar": "منازل طينية قديمة متراصة تعكس نمط الحياة النجدي التقليدي قبل قرون",
             "desc_en": "Rows of ancient mud houses reflecting traditional Najdi lifestyle from centuries ago",
             "icon": "holiday_village"
+          },
+          {
+            "name_ar": "حافة العالم (جبل فهرين)",
+            "name_en": "Edge of the World (Jebel Fihrayn)",
+            "type_ar": "موقع طبيعي أثري",
+            "type_en": "Natural & Archaeological Site",
+            "desc_ar": "جرف صخري مهيب بارتفاع 300 متر فوق الصحراء، يقع على بُعد 90 كم شمال غرب الرياض. يُعدّ من أجمل وأشهر المواقع الطبيعية في السعودية، وتحيط به نقوش ثمودية تعود لآلاف السنين",
+            "desc_en": "A majestic 300-meter rocky escarpment above the desert, 90km northwest of Riyadh. One of Saudi Arabia's most beautiful and famous natural sites, surrounded by Thamudic inscriptions thousands of years old",
+            "icon": "landscape"
           }
         ],
         "cultural_notes_ar": [
