@@ -63,9 +63,6 @@ export default function HomePage({ lang, setLang }) {
 
       {/* ── Hero ── */}
       <section className="bg-gradient-to-b from-heritage-green to-heritage-brown text-white py-10 px-4 text-center">
-        <p className="text-heritage-gold text-xs font-bold uppercase tracking-widest mb-4">
-          {lang === 'ar' ? 'المرشد التراثي الذكي' : 'Smart Heritage Guide'}
-        </p>
         <h1
           className="font-black mb-3 text-shadow"
           style={{
@@ -83,8 +80,9 @@ export default function HomePage({ lang, setLang }) {
         </p>
       </section>
 
-      {/* ── Circular Upload ── */}
-      <section className="flex flex-col items-center px-4 -mt-1 pt-10 pb-6">
+      {/* ── Upload ── */}
+      <section className="px-4 pt-10 pb-6">
+        <div className="max-w-2xl mx-auto">
         <input
           ref={fileInputRef}
           type="file"
@@ -94,45 +92,44 @@ export default function HomePage({ lang, setLang }) {
           disabled={isLoading}
         />
 
-        {/* Circle */}
+        {/* Rectangle upload button — same width as the cards below */}
         <button
           type="button"
           onClick={() => !isLoading && fileInputRef.current?.click()}
-          className="relative flex flex-col items-center justify-center rounded-full transition-all duration-300 group focus:outline-none"
+          className="relative w-full flex flex-col items-center justify-center rounded-3xl transition-all duration-300 group focus:outline-none"
           style={{
-            width: 260,
-            height: 260,
+            minHeight: 150,
             border: '3px dashed #c4933a',
-            background: 'radial-gradient(circle at center, #fffbf2 60%, #f5e8c8 100%)',
-            boxShadow: '0 4px 32px 0 rgba(196,147,58,0.13)',
+            background: 'linear-gradient(160deg, #fffbf2 60%, #f5e8c8 100%)',
+            boxShadow: '0 4px 32px 0 rgba(196,147,58,0.10)',
             cursor: isLoading ? 'default' : 'pointer',
           }}
           aria-label={lang === 'ar' ? 'ارفع صورة معلم' : 'Upload landmark photo'}
         >
-          {/* Subtle gold glow ring on hover */}
+          {/* Subtle gold glow on hover */}
           <span
-            className="absolute inset-0 rounded-full transition-all duration-300 group-hover:opacity-100 opacity-0"
-            style={{ boxShadow: '0 0 0 6px rgba(196,147,58,0.15)' }}
+            className="absolute inset-0 rounded-3xl transition-all duration-300 group-hover:opacity-100 opacity-0"
+            style={{ boxShadow: '0 0 0 6px rgba(196,147,58,0.12)' }}
           />
 
           {isLoading ? (
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-3 py-6">
               <div className="w-12 h-12 border-4 border-heritage-gold border-t-transparent rounded-full animate-spin" />
-              <p className="text-sm font-bold text-heritage-brown-md px-4 text-center">
+              <p className="text-sm font-bold text-heritage-brown-md text-center">
                 {lang === 'ar' ? 'جاري التحليل...' : 'Analyzing...'}
               </p>
             </div>
           ) : preview ? (
-            <div className="flex flex-col items-center gap-2 w-full h-full p-3">
+            <div className="flex flex-col items-center gap-3 p-4 w-full">
               <img
                 src={preview}
                 alt="preview"
-                className="w-full h-full object-cover rounded-full"
+                className="max-h-40 rounded-2xl shadow-md object-contain"
               />
             </div>
           ) : (
-            <div className="flex flex-col items-center gap-2 px-6 text-center">
-              <span className="material-icons text-heritage-gold" style={{ fontSize: '46px' }}>
+            <div className="flex flex-col items-center gap-2 py-8 text-center">
+              <span className="material-icons text-heritage-gold" style={{ fontSize: '44px' }}>
                 photo_camera
               </span>
               <p className="text-sm font-black text-heritage-brown leading-snug">
@@ -146,24 +143,26 @@ export default function HomePage({ lang, setLang }) {
             </div>
           )}
         </button>
+          {/* Reset link if preview */}
+          {preview && !isLoading && (
+            <div className="text-center mt-3">
+              <button
+                type="button"
+                onClick={() => { setPreview(null); setFileName(null); }}
+                className="text-xs text-heritage-green font-bold hover:underline"
+              >
+                {lang === 'ar' ? 'اختر صورة أخرى' : 'Choose Different Image'}
+              </button>
+            </div>
+          )}
 
-        {/* Reset link if preview */}
-        {preview && !isLoading && (
-          <button
-            type="button"
-            onClick={() => { setPreview(null); setFileName(null); }}
-            className="mt-3 text-xs text-heritage-green font-bold hover:underline"
-          >
-            {lang === 'ar' ? 'اختر صورة أخرى' : 'Choose Different Image'}
-          </button>
-        )}
-
-        {/* Error */}
-        {error && (
-          <div className="mt-4 w-full max-w-xs p-3 bg-red-50 border border-red-300 rounded-xl text-red-700 text-center text-xs">
-            {error}
-          </div>
-        )}
+          {/* Error */}
+          {error && (
+            <div className="mt-4 p-3 bg-red-50 border border-red-300 rounded-xl text-red-700 text-center text-xs">
+              {error}
+            </div>
+          )}
+        </div>
       </section>
 
       {/* ── The Big Two ── */}
