@@ -50,7 +50,7 @@ export default function HomePage({ lang, setLang }) {
         <p className="text-heritage-gold text-sm font-bold uppercase tracking-widest mb-8">
           {lang === 'ar' ? 'المرشد التراثي الذكي' : 'Smart Heritage Guide'}
         </p>
-        <h1 className="font-black mb-4 text-shadow" style={{ fontFamily: "'Cairo', sans-serif", fontSize: 'clamp(6rem, 18vw, 12rem)', lineHeight: 1 }}>
+        <h1 className="font-black mb-4 text-shadow" style={{ fontFamily: "'Amiri', 'Cairo', serif", fontSize: 'clamp(6rem, 18vw, 12rem)', lineHeight: 1 }}>
           {lang === 'ar' ? 'أثر' : 'Athar'}
         </h1>
         <p className="text-xl text-white/80 max-w-md mx-auto">
