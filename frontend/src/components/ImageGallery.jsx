@@ -23,15 +23,15 @@ export default function ImageGallery({ images, lang }) {
           <>
             <button
               onClick={goToPrev}
-              className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold text-heritage-green shadow transition"
+              className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-heritage-green shadow transition"
             >
-              ›
+              <span className="material-icons">chevron_right</span>
             </button>
             <button
               onClick={goToNext}
-              className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold text-heritage-green shadow transition"
+              className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white rounded-full w-10 h-10 flex items-center justify-center text-heritage-green shadow transition"
             >
-              ‹
+              <span className="material-icons">chevron_left</span>
             </button>
           </>
         )}
@@ -45,7 +45,9 @@ export default function ImageGallery({ images, lang }) {
         <p className="font-semibold text-heritage-brown text-right">
           {lang === 'ar' ? current.caption_ar : current.caption_en}
         </p>
-        <p className="text-xs text-heritage-brown-md mt-1">📌 {current.source}</p>
+        <p className="text-xs text-heritage-brown-md mt-1 flex items-center gap-1">
+          <span className="material-icons text-xs">push_pin</span> {current.source}
+        </p>
       </div>
 
       {images.length > 1 && (

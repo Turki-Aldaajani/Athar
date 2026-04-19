@@ -15,9 +15,9 @@ export default {
           'brown-md':'#5C4033',
           gold:      '#C5A028',
           'gold-lt': '#f0d97a',
-          green:     '#1B5E20',
-          'green-md':'#2E7D32',
-          'green-lt':'#E8F5E9',
+          green:     '#5c3d1e',
+          'green-md':'#7d5232',
+          'green-lt':'#f0e6d6',
         },
       },
       fontFamily: {

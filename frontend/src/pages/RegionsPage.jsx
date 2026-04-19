@@ -30,7 +30,7 @@ export default function RegionsPage({ lang, setLang }) {
             onClick={() => navigate('/')}
             className="flex items-center gap-2 text-heritage-green font-bold hover:opacity-70 transition"
           >
-            <span>{lang === 'ar' ? '→' : '←'}</span>
+            <span className="material-icons text-base">{lang === 'ar' ? 'arrow_forward' : 'arrow_back'}</span>
             <span>{lang === 'ar' ? 'رجوع للرئيسية' : 'Back to Home'}</span>
           </button>
         </div>
@@ -38,8 +38,9 @@ export default function RegionsPage({ lang, setLang }) {
 
       {/* Header */}
       <div className="text-center py-10 px-4">
-        <h1 className="text-4xl font-black text-heritage-brown mb-2">
-          🌍 {lang === 'ar' ? 'ثقافة المناطق' : 'Regional Cultures'}
+        <h1 className="text-4xl font-black text-heritage-brown mb-2 flex items-center justify-center gap-3">
+          <span className="material-icons text-heritage-green" style={{ fontSize: '40px' }}>map</span>
+          {lang === 'ar' ? 'ثقافة المناطق' : 'Regional Cultures'}
         </h1>
         <p className="text-heritage-brown-md">
           {lang === 'ar'

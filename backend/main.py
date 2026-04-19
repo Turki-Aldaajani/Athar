@@ -1,5 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import json
 from pathlib import Path
@@ -164,8 +166,33 @@ async def recognize_landmark(req: RecognizeRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+FRONTEND_DIST = Path(__file__).parent.parent / "frontend" / "dist"
+
+if FRONTEND_DIST.exists() and (FRONTEND_DIST / "assets").exists():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="static-assets")
+
+
 @app.on_event("startup")
 async def startup_event():
     print(f"Athar API started")
     print(f"Loaded {len(LANDMARKS)} landmarks")
     print(f"Groq API: {'Configured' if groq_client else 'Not configured'}")
+    if FRONTEND_DIST.exists():
+        print(f"Serving frontend from {FRONTEND_DIST}")
+    else:
+        print("Frontend dist not found — API-only mode")
+
+
+@app.get("/{full_path:path}", include_in_schema=False)
+async def serve_spa(full_path: str):
+    if not FRONTEND_DIST.exists():
+        return {"message": "Athar API is running. Frontend not built."}
+    # Serve specific static files from dist root (logo, favicon, etc.)
+    requested = FRONTEND_DIST / full_path
+    if requested.exists() and requested.is_file():
+        return FileResponse(str(requested))
+    # SPA fallback — serve index.html
+    index_file = FRONTEND_DIST / "index.html"
+    if index_file.exists():
+        return FileResponse(str(index_file))
+    return {"message": "Athar API is running."}

@@ -4,9 +4,9 @@ import ImageUploader from '../components/ImageUploader';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const STEPS = [
-  { icon: '📸', ar: 'صوّر أو ارفع', en: 'Photograph or Upload', sub_ar: 'صورة لأي معلم تراثي', sub_en: 'A photo of any heritage landmark' },
-  { icon: '🔍', ar: 'تعرّف ذكي', en: 'Smart Recognition',   sub_ar: 'نظام ذكاء اصطناعي متقدم', sub_en: 'Advanced AI identifies it instantly' },
-  { icon: '📖', ar: 'اقرأ القصة',  en: 'Read the Story',     sub_ar: 'تاريخ غني وجدول أحداث', sub_en: 'Rich history and event timeline' },
+  { icon: 'photo_camera', ar: 'صوّر أو ارفع', en: 'Photograph or Upload', sub_ar: 'صورة لأي معلم تراثي', sub_en: 'A photo of any heritage landmark' },
+  { icon: 'search', ar: 'تعرّف ذكي', en: 'Smart Recognition', sub_ar: 'نظام ذكاء اصطناعي متقدم', sub_en: 'Advanced AI identifies it instantly' },
+  { icon: 'auto_stories', ar: 'اقرأ القصة', en: 'Read the Story', sub_ar: 'تاريخ غني وجدول أحداث', sub_en: 'Rich history and event timeline' },
 ];
 
 export default function HomePage({ lang, setLang }) {
@@ -46,7 +46,7 @@ export default function HomePage({ lang, setLang }) {
       <LanguageSwitcher lang={lang} setLang={setLang} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-heritage-green to-[#145218] text-white py-16 px-4 text-center">
+      <section className="bg-gradient-to-b from-heritage-green to-heritage-brown text-white py-16 px-4 text-center">
         <p className="text-heritage-gold text-sm font-bold uppercase tracking-widest mb-3">
           {lang === 'ar' ? 'المرشد التراثي الذكي' : 'Smart Heritage Guide'}
         </p>
@@ -84,7 +84,9 @@ export default function HomePage({ lang, setLang }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {STEPS.map((step, i) => (
             <div key={i} className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm p-6 text-center hover:shadow-md transition">
-              <div className="text-5xl mb-3">{step.icon}</div>
+              <div className="flex justify-center mb-3">
+                <span className="material-icons text-heritage-green" style={{ fontSize: '48px' }}>{step.icon}</span>
+              </div>
               <h3 className="font-black text-heritage-brown text-lg mb-1">
                 {lang === 'ar' ? step.ar : step.en}
               </h3>
@@ -109,9 +111,10 @@ export default function HomePage({ lang, setLang }) {
           </p>
           <button
             onClick={() => navigate('/regions')}
-            className="px-8 py-3 bg-heritage-green text-white font-bold rounded-full hover:bg-[#145218] transition shadow-md"
+            className="px-8 py-3 bg-heritage-green text-white font-bold rounded-full hover:bg-heritage-green-md transition shadow-md inline-flex items-center gap-2"
           >
-            🌍 {lang === 'ar' ? 'استكشف المناطق' : 'Explore Regions'}
+            <span className="material-icons text-base">explore</span>
+            {lang === 'ar' ? 'استكشف المناطق' : 'Explore Regions'}
           </button>
         </div>
       </section>

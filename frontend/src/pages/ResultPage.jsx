@@ -18,8 +18,9 @@ export default function ResultPage({ lang, setLang }) {
           </p>
           <button
             onClick={() => navigate('/')}
-            className="px-6 py-3 bg-heritage-green text-white rounded-full font-bold hover:bg-[#145218] transition"
+            className="px-6 py-3 bg-heritage-green text-white rounded-full font-bold hover:bg-heritage-green-md transition inline-flex items-center gap-2"
           >
+            <span className="material-icons text-base">home</span>
             {lang === 'ar' ? 'العودة للرئيسية' : 'Back to Home'}
           </button>
         </div>
@@ -38,7 +39,7 @@ export default function ResultPage({ lang, setLang }) {
             onClick={() => navigate('/')}
             className="flex items-center gap-2 text-heritage-green font-bold hover:opacity-70 transition"
           >
-            <span>{lang === 'ar' ? '→' : '←'}</span>
+            <span className="material-icons text-base">{lang === 'ar' ? 'arrow_forward' : 'arrow_back'}</span>
             <span>{lang === 'ar' ? 'رجوع للرئيسية' : 'Back to Home'}</span>
           </button>
         </div>
@@ -51,8 +52,9 @@ export default function ResultPage({ lang, setLang }) {
 
         {/* Story */}
         <section>
-          <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right">
-            📖 {lang === 'ar' ? 'القصة التاريخية' : 'Historical Story'}
+          <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+            {lang === 'ar' ? 'القصة التاريخية' : 'Historical Story'}
+            <span className="material-icons text-heritage-gold">auto_stories</span>
           </h2>
           <div className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm p-6">
             <p className="text-heritage-brown leading-loose text-right whitespace-pre-wrap">
@@ -64,8 +66,9 @@ export default function ResultPage({ lang, setLang }) {
         {/* Gallery */}
         {landmark.reference_images?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right">
-              📸 {lang === 'ar' ? 'معرض الصور' : 'Photo Gallery'}
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+              {lang === 'ar' ? 'معرض الصور' : 'Photo Gallery'}
+              <span className="material-icons text-heritage-gold">photo_library</span>
             </h2>
             <ImageGallery images={landmark.reference_images} lang={lang} />
           </section>
@@ -74,8 +77,9 @@ export default function ResultPage({ lang, setLang }) {
         {/* Timeline */}
         {landmark.timeline?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right">
-              ⏳ {lang === 'ar' ? 'تسلسل الأحداث' : 'Timeline'}
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+              {lang === 'ar' ? 'تسلسل الأحداث' : 'Timeline'}
+              <span className="material-icons text-heritage-gold">timeline</span>
             </h2>
             <Timeline events={landmark.timeline} lang={lang} />
           </section>
@@ -85,8 +89,9 @@ export default function ResultPage({ lang, setLang }) {
         <div className="text-center pt-4 pb-8">
           <button
             onClick={() => navigate('/')}
-            className="px-8 py-3 bg-heritage-green text-white font-bold rounded-full hover:bg-[#145218] transition shadow-md"
+            className="px-8 py-3 bg-heritage-green text-white font-bold rounded-full hover:bg-heritage-green-md transition shadow-md inline-flex items-center gap-2"
           >
+            <span className="material-icons text-base">refresh</span>
             {lang === 'ar' ? 'جرّب معلماً آخر' : 'Try Another Landmark'}
           </button>
         </div>

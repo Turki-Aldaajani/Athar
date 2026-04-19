@@ -1,0 +1,78 @@
+
+مشروع تخرج بعنوان "أثر" (Athar) — مرشد تراثي ذكي للمعالم السعودية.
+
+الموعد: التسليم يوم الأحد (بعد غد)
+الهدف: MVP مصقول لـ 5 معالم فقط
+Stack: React + FastAPI + Groq API (Llama 4 Vision)
+🌐 الروابط المهمة
+GitHub	https://github.com/Turki-Aldaajani/Athar
+Frontend (Vercel)	https://project-6hfy6.vercel.app
+Backend (Render)	https://athar-7vap.onrender.com
+المجلد المحلي	C:\Users\PC\Downloads\Athar\Athar\
+🏗️ البنية الكاملة (موجودة ومرفوعة على GitHub)
+
+Athar/
+├── backend/
+│   ├── main.py              ✅ FastAPI + Groq Vision
+│   ├── requirements.txt     ✅
+│   ├── render.yaml          ✅ Render deployment
+│   ├── build.sh             ✅
+│   └── data/
+│       └── landmarks.json   ✅ 5 معالم كاملة
+│
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── ImageUploader.jsx    ✅
+    │   │   ├── LandmarkResult.jsx   ✅
+    │   │   ├── Timeline.jsx         ✅
+    │   │   ├── ImageGallery.jsx     ✅
+    │   │   ├── LanguageSwitcher.jsx ✅
+    │   │   └── RegionDetail.jsx     ✅
+    │   ├── pages/
+    │   │   ├── HomePage.jsx         ✅
+    │   │   ├── ResultPage.jsx       ✅
+    │   │   └── RegionsPage.jsx      ✅
+    │   └── data/
+    │       └── regions.json         ✅ 5 مناطق
+    ├── tailwind.config.js   ✅ ألوان تراثية مخصصة
+    ├── index.html           ✅ Cairo font
+    └── .env.local           ✅ VITE_API_URL
+🏛️ المعالم الـ 5 المدعومة
+id	الاسم	المنطقة
+salwa-palace	قصر سلوى	الدرعية
+masmak-fort	قصر المصمك	الرياض
+at-turaif	حي الطريف	الدرعية
+imam-diwan	ديوانية الإمام	الدرعية
+nasif-house	بيت نصيف	جدة
+كل معلم يحتوي: story_ar/en + timeline (6 أحداث) + reference_images (4 صور) + description_short + period + unesco
+
+🎨 نظام الألوان (Tailwind custom)
+
+heritage: {
+  beige:     '#f5e6ca',   // خلفيات الأقسام
+  'beige-dark': '#e8d5b0',
+  cream:     '#fdf8f0',   // خلفية الصفحة
+  brown:     '#2C1810',   // النصوص الرئيسية
+  'brown-md':'#5C4033',   // النصوص الثانوية
+  gold:      '#C5A028',   // التاريخ في Timeline + UNESCO
+  green:     '#1B5E20',   // اللون السعودي الأساسي
+  'green-md':'#2E7D32',
+}
+⚙️ كيف يعمل الـ Backend
+POST /api/recognize ← يستقبل صورة base64 → يرسلها لـ Groq Vision (llama-4-scout-17b) → يعيد بيانات المعلم من landmarks.json
+
+متغيرات البيئة المطلوبة:
+
+Backend (Render): GROQ_API_KEY
+Frontend (Vercel): VITE_API_URL=https://athar-7vap.onrender.com
+📋 ما تم إنجازه في هذه الجلسة
+✅ إنشاء landmarks.json كامل (5 معالم)
+✅ إنشاء regions.json (5 مناطق سعودية)
+✅ requirements.txt + render.yaml + build.sh
+✅ تصميم UI كامل بالألوان التراثية (بيج + ذهبي + أخضر سعودي)
+✅ إنشاء LandmarkResult.jsx (مكوّن جديد)
+✅ تحديث جميع الصفحات والمكوّنات
+✅ إضافة Cairo font من Google Fonts
+✅ README احترافي + .gitignore
+✅ رفع كل شيء على GitHub

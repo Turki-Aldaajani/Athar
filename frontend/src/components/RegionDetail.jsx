@@ -13,9 +13,10 @@ export default function RegionDetail({ region, onBack, lang, setLang }) {
         <div className="absolute inset-0 bg-black/50" />
         <button
           onClick={onBack}
-          className="absolute top-5 right-5 bg-white/90 hover:bg-white rounded-full px-4 py-2 shadow-lg font-bold text-heritage-green transition text-sm"
+          className="absolute top-5 right-5 bg-white/90 hover:bg-white rounded-full px-4 py-2 shadow-lg font-bold text-heritage-green transition text-sm inline-flex items-center gap-1"
         >
-          {lang === 'ar' ? 'رجوع →' : '← Back'}
+          {lang === 'ar' ? 'رجوع' : 'Back'}
+          <span className="material-icons text-sm">{lang === 'ar' ? 'arrow_forward' : 'arrow_back'}</span>
         </button>
         <div className="absolute bottom-6 right-6 left-6 text-white text-right">
           <h1 className="text-4xl font-black mb-1 text-shadow">
@@ -44,8 +45,9 @@ export default function RegionDetail({ region, onBack, lang, setLang }) {
         {/* Highlights */}
         {region.highlights?.length > 0 && (
           <section>
-            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right">
-              {lang === 'ar' ? '✨ أبرز المعالم' : '✨ Highlights'}
+            <h2 className="text-2xl font-black text-heritage-brown mb-4 text-right flex items-center justify-end gap-2">
+              {lang === 'ar' ? 'أبرز المعالم' : 'Highlights'}
+              <span className="material-icons text-heritage-gold">star</span>
             </h2>
             <div className="space-y-4">
               {region.highlights.map((item, idx) => (
@@ -54,7 +56,7 @@ export default function RegionDetail({ region, onBack, lang, setLang }) {
                   className="bg-white rounded-2xl border border-heritage-beige-dark shadow-sm p-5 border-r-4 border-r-heritage-gold"
                 >
                   <div className="flex gap-4 items-start">
-                    <span className="text-4xl flex-shrink-0">{item.icon}</span>
+                    <span className="material-icons text-heritage-green text-4xl flex-shrink-0">place</span>
                     <div className="text-right flex-1">
                       <h3 className="font-black text-heritage-brown text-lg mb-1">
                         {lang === 'ar' ? item.title_ar : item.title_en}
@@ -73,8 +75,9 @@ export default function RegionDetail({ region, onBack, lang, setLang }) {
         {/* Cultural notes */}
         {region.cultural_notes_ar?.length > 0 && (
           <section className="bg-heritage-beige rounded-2xl p-7 border border-heritage-beige-dark border-r-4 border-r-heritage-gold">
-            <h2 className="text-xl font-black text-heritage-brown mb-5 text-right">
-              💡 {lang === 'ar' ? 'هل تعلم؟' : 'Did You Know?'}
+            <h2 className="text-xl font-black text-heritage-brown mb-5 text-right flex items-center justify-end gap-2">
+              {lang === 'ar' ? 'هل تعلم؟' : 'Did You Know?'}
+              <span className="material-icons text-heritage-gold">lightbulb</span>
             </h2>
             <ul className="space-y-3">
               {(lang === 'ar'

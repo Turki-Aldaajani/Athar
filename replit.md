@@ -3,6 +3,14 @@
 ## Overview
 An AI-powered web application that identifies Saudi Arabian heritage landmarks from photos and provides historical narratives, event timelines, and image galleries in both Arabic and English.
 
+## Design System
+- **Primary color (clay):** `#5c3d1e` — replaces green, inspired by Diriyah mud-brick architecture
+- **Medium clay:** `#7d5232`
+- **Light clay:** `#f0e6d6`
+- **Gold:** `#C5A028` — accents, timeline, UNESCO badge
+- **Icons:** Material Icons (Google) — no emoji icons
+- **Logo:** `/public/athar-logo.png` — shown in a white badge in the navbar
+
 ## Architecture
 
 ### Frontend (React + Vite)

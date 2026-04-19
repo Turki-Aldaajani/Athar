@@ -7,21 +7,24 @@ export default function LandmarkResult({ landmark, lang }) {
         <h2 className="text-3xl font-black text-heritage-brown text-right">
           {lang === 'ar' ? landmark.name_ar : landmark.name_en}
         </h2>
-        <p className="text-heritage-brown-md text-right mt-1">
-          📍 {lang === 'ar' ? landmark.location_ar : landmark.location_en}
+        <p className="text-heritage-brown-md text-right mt-1 flex items-center justify-end gap-1">
+          <span className="material-icons text-sm">location_on</span>
+          {lang === 'ar' ? landmark.location_ar : landmark.location_en}
         </p>
       </div>
 
       <div className="px-6 py-5">
         <div className="flex flex-wrap gap-3 justify-end mb-4">
           {landmark.period_ar && (
-            <span className="bg-heritage-green text-white text-sm font-bold px-4 py-1.5 rounded-full">
-              🕌 {lang === 'ar' ? landmark.period_ar : landmark.period_en}
+            <span className="bg-heritage-green text-white text-sm font-bold px-4 py-1.5 rounded-full inline-flex items-center gap-1">
+              <span className="material-icons text-sm">account_balance</span>
+              {lang === 'ar' ? landmark.period_ar : landmark.period_en}
             </span>
           )}
           {landmark.unesco && (
-            <span className="bg-heritage-gold text-white text-sm font-bold px-4 py-1.5 rounded-full">
-              🏛️ UNESCO
+            <span className="bg-heritage-gold text-white text-sm font-bold px-4 py-1.5 rounded-full inline-flex items-center gap-1">
+              <span className="material-icons text-sm">verified</span>
+              UNESCO
             </span>
           )}
         </div>

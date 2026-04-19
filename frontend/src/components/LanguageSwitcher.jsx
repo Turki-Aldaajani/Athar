@@ -2,9 +2,13 @@ export default function LanguageSwitcher({ lang, setLang }) {
   return (
     <nav className="bg-heritage-green text-white px-4 py-3 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <span className="text-2xl font-black tracking-wide select-none">
-          {lang === 'ar' ? 'أثر' : 'Athar'}
-        </span>
+        <div className="bg-white rounded-xl px-2 py-1">
+          <img
+            src="/athar-logo.png"
+            alt="أثر"
+            className="h-9 w-auto object-contain"
+          />
+        </div>
 
         <div className="flex gap-2">
           <button

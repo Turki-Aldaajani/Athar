@@ -55,7 +55,9 @@ export default function ImageUploader({ onImageSelected, isLoading, lang }) {
             </div>
           ) : (
             <div className="py-4">
-              <div className="text-6xl mb-4">📷</div>
+              <div className="flex justify-center mb-4">
+                <span className="material-icons text-heritage-gold" style={{ fontSize: '64px' }}>photo_camera</span>
+              </div>
               <p className="text-2xl font-bold text-heritage-brown mb-2">
                 {lang === 'ar' ? 'اختر صورة المعلم' : 'Select a Landmark Photo'}
               </p>
