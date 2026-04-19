@@ -71,16 +71,16 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Salwa_Palace%2C_Diriyah.jpg/1200px-Salwa_Palace%2C_Diriyah.jpg",
-          "caption_ar": "قصر سلوى من الداخل — الدرعية",
-          "caption_en": "Salwa Palace interior — Diriyah",
+          "url": "/images/turaif-1.jpg",
+          "caption_ar": "حي الدرعية التراثي — يضم قصر سلوى",
+          "caption_en": "Historic Diriyah — home of Salwa Palace",
           "source": "Wikimedia Commons"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Diriyah_At-Turaif_2020.jpg/1200px-Diriyah_At-Turaif_2020.jpg",
-          "caption_ar": "منظر جوي لحي الدرعية التاريخي",
-          "caption_en": "Aerial view of historic Diriyah",
-          "source": "Wikimedia Commons"
+          "url": "/images/salwa2.jpg",
+          "caption_ar": "قصر سلوى — رمز الحضارة النجدية",
+          "caption_en": "Salwa Palace — symbol of Najdi civilization",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -148,16 +148,10 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Al-Masmak_fortress_01.jpg/1200px-Al-Masmak_fortress_01.jpg",
-          "caption_ar": "قصر المصمك — مدخل رئيسي",
-          "caption_en": "Al-Masmak Fortress — main entrance",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Masmak_Fort_Riyadh_1.jpg/1200px-Masmak_Fort_Riyadh_1.jpg",
-          "caption_ar": "برج المراقبة في قصر المصمك",
-          "caption_en": "Watchtower of Al-Masmak Fort",
-          "source": "Wikimedia Commons"
+          "url": "/images/masmak.jpg",
+          "caption_ar": "قصر المصمك — شاهد على توحيد المملكة",
+          "caption_en": "Al-Masmak Fortress — witness to the Kingdom's unification",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -225,16 +219,16 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/At-Turaif_District_in_ad-Dir%27iyah_-_2.jpg/1200px-At-Turaif_District_in_ad-Dir%27iyah_-_2.jpg",
-          "caption_ar": "حي الطريف — موقع التراث العالمي",
-          "caption_en": "At-Turaif District — UNESCO World Heritage",
+          "url": "/images/turaif-1.jpg",
+          "caption_ar": "حي الطريف — موقع التراث العالمي لليونسكو",
+          "caption_en": "At-Turaif District — UNESCO World Heritage Site",
           "source": "Wikimedia Commons"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/At-Turaif_District_in_ad-Dir%27iyah.jpg/1200px-At-Turaif_District_in_ad-Dir%27iyah.jpg",
-          "caption_ar": "جدران حي الطريف الطينية",
-          "caption_en": "Mud-brick walls of At-Turaif",
-          "source": "Wikimedia Commons"
+          "url": "/images/salwa2.jpg",
+          "caption_ar": "جدران الطريف الطينية — أيقونة العمارة النجدية",
+          "caption_en": "Turaif mud-brick walls — icon of Najdi architecture",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -296,10 +290,16 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Diriyah_historical_area.jpg/1200px-Diriyah_historical_area.jpg",
-          "caption_ar": "المنطقة التاريخية بالدرعية",
-          "caption_en": "Historic area of Diriyah",
+          "url": "/images/turaif-1.jpg",
+          "caption_ar": "الدرعية — مهد المملكة العربية السعودية",
+          "caption_en": "Diriyah — cradle of Saudi Arabia",
           "source": "Wikimedia Commons"
+        },
+        {
+          "url": "/images/imam-diwan.jpg",
+          "caption_ar": "ديوان الإمام — مركز الحكم والشريعة",
+          "caption_en": "Imam's Diwan — center of governance and law",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -367,16 +367,10 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nassif_House%2C_Jeddah.jpg/1200px-Nassif_House%2C_Jeddah.jpg",
-          "caption_ar": "بيت نصيف — جدة التاريخية",
-          "caption_en": "Nassif House — Historic Jeddah",
-          "source": "Wikimedia Commons"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Al-Balad%2C_Jeddah_01.jpg/1200px-Al-Balad%2C_Jeddah_01.jpg",
-          "caption_ar": "شارع في البلد التاريخي بجدة",
-          "caption_en": "Street in Al-Balad historic district, Jeddah",
-          "source": "Wikimedia Commons"
+          "url": "/images/nasif.jpg",
+          "caption_ar": "بيت نصيف — لؤلؤة جدة التاريخية",
+          "caption_en": "Nassif House — gem of historic Jeddah",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -461,12 +455,6 @@
           "caption_ar": "توثيق تاريخي لنقوش الحِجر",
           "caption_en": "Historical documentation of Hegra inscriptions",
           "source": "Reference Image"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Madain_Saleh_1.jpg/1200px-Madain_Saleh_1.jpg",
-          "caption_ar": "مدائن صالح — منظر عام للمقابر",
-          "caption_en": "Madain Saleh — general view of tombs",
-          "source": "Wikimedia Commons"
         }
       ]
     },
@@ -541,10 +529,10 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Camel_Site_Saudi_Arabia.jpg/1200px-Camel_Site_Saudi_Arabia.jpg",
+          "url": "/images/camel.jpg",
           "caption_ar": "موقع نقش الجمل — منطقة الجوف",
           "caption_en": "Camel Rock Art Site — Al-Jouf region",
-          "source": "Wikimedia Commons"
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -625,10 +613,10 @@
           "source": "Reference Image"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/King_Abdulaziz_portrait.jpg/800px-King_Abdulaziz_portrait.jpg",
-          "caption_ar": "صورة تاريخية للملك المؤسس",
-          "caption_en": "Historical portrait of the founding king",
-          "source": "Wikimedia Commons"
+          "url": "/images/abdulaziz2.jpg",
+          "caption_ar": "المؤسس — موحّد المملكة العربية السعودية عام 1932",
+          "caption_en": "The Founder — unified Saudi Arabia in 1932",
+          "source": "Athar Heritage"
         }
       ]
     },
@@ -707,12 +695,6 @@
           "caption_ar": "نقوش صخرية في منطقة الحِمة",
           "caption_en": "Rock art engravings in Hima region",
           "source": "Reference Image"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Hima_Rock_Art.jpg/1200px-Hima_Rock_Art.jpg",
-          "caption_ar": "رسومات صخرية تعود لآلاف السنين",
-          "caption_en": "Rock drawings dating back thousands of years",
-          "source": "Wikimedia Commons"
         }
       ]
     },
@@ -780,16 +762,16 @@
       ],
       "reference_images": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bujairi_Heritage_Park_Diriyah.jpg/1200px-Bujairi_Heritage_Park_Diriyah.jpg",
-          "caption_ar": "حي البجيري — منظر ليلي",
-          "caption_en": "Bujairi District — night view",
+          "url": "/images/turaif-1.jpg",
+          "caption_ar": "البجيري والدرعية — تاريخ على ضفاف وادي حنيفة",
+          "caption_en": "Bujairi and Diriyah — history on the banks of Wadi Hanifa",
           "source": "Wikimedia Commons"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/At-Turaif_District_in_ad-Dir%27iyah_-_2.jpg/1200px-At-Turaif_District_in_ad-Dir%27iyah_-_2.jpg",
-          "caption_ar": "الدرعية التاريخية من الجانب الآخر للوادي",
-          "caption_en": "Historic Diriyah seen from across the valley",
-          "source": "Wikimedia Commons"
+          "url": "/images/bujairi.jpg",
+          "caption_ar": "حي البجيري — مقابل حي الطريف التاريخي",
+          "caption_en": "Bujairi District — opposite the historic At-Turaif",
+          "source": "Athar Heritage"
         }
       ]
     }

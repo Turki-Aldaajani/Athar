@@ -274,8 +274,10 @@ async def recognize_landmark(req: RecognizeRequest):
 
 FRONTEND_DIST = Path(__file__).parent.parent / "frontend" / "dist"
 REF_IMAGES_DIR = Path(__file__).parent / "data" / "reference_images"
+IMAGES_DIR = Path(__file__).parent / "data" / "images"
 
 app.mount("/ref-images", StaticFiles(directory=str(REF_IMAGES_DIR)), name="ref-images")
+app.mount("/images", StaticFiles(directory=str(IMAGES_DIR)), name="images")
 
 if FRONTEND_DIST.exists() and (FRONTEND_DIST / "assets").exists():
     app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="static-assets")
