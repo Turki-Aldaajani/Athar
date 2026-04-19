@@ -26,7 +26,7 @@ export default function RegionsPage({ lang, setLang }) {
     <div className="min-h-screen bg-heritage-cream" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <LanguageSwitcher lang={lang} setLang={setLang} />
 
-      {/* Back */}
+      {/* Back bar */}
       <div className="bg-heritage-beige border-b border-heritage-beige-dark px-4 py-3">
         <div className="container mx-auto">
           <button
@@ -39,26 +39,23 @@ export default function RegionsPage({ lang, setLang }) {
         </div>
       </div>
 
-      {/* Region Hero */}
+      {/* Region Header — plain dark brown, no image */}
       <div
-        className="relative h-72 bg-cover bg-center"
-        style={{ backgroundImage: `url(${region.hero_image})` }}
+        className="px-6 py-10 text-white text-center"
+        style={{ background: 'linear-gradient(to bottom, #2d4a1e, #3d2a10)' }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-        <div className="absolute bottom-0 right-0 left-0 p-6 text-white ">
-          <div className="flex items-center justify-start gap-2 mb-1">
-            <span className="material-icons text-heritage-gold">map</span>
-            <span className="text-heritage-gold text-sm font-bold uppercase tracking-widest">
-              {lang === 'ar' ? 'استكشف المنطقة' : 'Explore the Region'}
-            </span>
-          </div>
-          <h1 className="text-4xl font-black text-shadow mb-1">
-            {lang === 'ar' ? region.name_ar : region.name_en}
-          </h1>
-          <p className="text-white/85 text-base">
-            {lang === 'ar' ? region.tagline_ar : region.tagline_en}
-          </p>
+        <div className="flex items-center justify-center gap-2 mb-2">
+          <span className="material-icons text-heritage-gold">map</span>
+          <span className="text-heritage-gold text-sm font-bold uppercase tracking-widest">
+            {lang === 'ar' ? 'استكشف المنطقة' : 'Explore the Region'}
+          </span>
         </div>
+        <h1 className="text-4xl font-black text-shadow mb-2" style={{ fontFamily: "'Amiri', serif" }}>
+          {lang === 'ar' ? region.name_ar : region.name_en}
+        </h1>
+        <p className="text-white/80 text-base max-w-md mx-auto">
+          {lang === 'ar' ? region.tagline_ar : region.tagline_en}
+        </p>
       </div>
 
       {/* Overview */}

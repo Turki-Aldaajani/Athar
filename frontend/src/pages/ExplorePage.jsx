@@ -100,20 +100,24 @@ export default function ExplorePage({ lang, setLang }) {
     <div className="min-h-screen bg-heritage-cream" dir={ar ? 'rtl' : 'ltr'}>
       <LanguageSwitcher lang={lang} setLang={setLang} />
 
+      {/* Back bar */}
+      <div className="bg-heritage-beige border-b border-heritage-beige-dark px-4 py-3">
+        <div className="container mx-auto">
+          <button
+            onClick={() => navigate('/')}
+            className="flex items-center gap-2 text-heritage-green font-bold hover:opacity-70 transition text-base"
+          >
+            <span className="material-icons">{ar ? 'arrow_forward' : 'arrow_back'}</span>
+            <span>{ar ? 'رجوع للرئيسية' : 'Back to Home'}</span>
+          </button>
+        </div>
+      </div>
+
       {/* Header */}
       <div
         className="text-white py-12 px-4 text-center"
         style={{ background: 'linear-gradient(135deg, #2d4a1e 0%, #5a3a1a 100%)' }}
       >
-        <button
-          onClick={() => navigate('/')}
-          className="absolute top-16 right-5 text-white/70 hover:text-white flex items-center gap-1 text-sm"
-          style={{ [ar ? 'right' : 'left']: '1.25rem' }}
-        >
-          <span className="material-icons text-base">{ar ? 'arrow_forward' : 'arrow_back'}</span>
-          {ar ? 'الرئيسية' : 'Home'}
-        </button>
-
         <div className="flex justify-center mb-4">
           <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center">
             <span className="material-icons text-heritage-gold" style={{ fontSize: '2.2rem' }}>travel_explore</span>
