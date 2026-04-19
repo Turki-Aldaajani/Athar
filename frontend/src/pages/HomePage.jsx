@@ -19,7 +19,7 @@ export default function HomePage({ lang, setLang }) {
     setError(null);
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/recognize`, {
+      const response = await fetch(`/api/recognize`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image: base64Image, language: lang }),
