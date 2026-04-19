@@ -1,0 +1,20 @@
+{
+  "references": [
+    {
+      "filename": "king-abdulaziz.jpg",
+      "landmark_id": "king-abdulaziz"
+    },
+    {
+      "filename": "hegra-photo.webp",
+      "landmark_id": "hegra"
+    },
+    {
+      "filename": "hegra-drawing.jpg",
+      "landmark_id": "hegra"
+    },
+    {
+      "filename": "hima-rock-art.jpg",
+      "landmark_id": "hima-rock-art"
+    }
+  ]
+}

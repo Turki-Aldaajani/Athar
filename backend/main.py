@@ -6,7 +6,11 @@ from pydantic import BaseModel
 import json
 from pathlib import Path
 import os
+import base64
+import io
 from groq import Groq
+import imagehash
+from PIL import Image
 
 app = FastAPI(
     title="Athar API",
@@ -38,6 +42,34 @@ def load_landmarks():
 
 
 LANDMARKS = load_landmarks()
+
+
+def load_reference_hashes():
+    ref_dir = Path(__file__).parent / "data" / "reference_images"
+    map_path = ref_dir / "reference_map.json"
+    hashes = []
+    if not map_path.exists():
+        print("Warning: reference_map.json not found, skipping hash precomputation")
+        return hashes
+    with open(map_path, encoding="utf-8") as f:
+        ref_map = json.load(f)
+    for entry in ref_map.get("references", []):
+        img_path = ref_dir / entry["filename"]
+        if not img_path.exists():
+            print(f"Warning: reference image not found: {img_path}")
+            continue
+        try:
+            img = Image.open(img_path).convert("RGB")
+            h = imagehash.phash(img)
+            hashes.append({"hash": h, "landmark_id": entry["landmark_id"], "filename": entry["filename"]})
+            print(f"Loaded reference hash for {entry['filename']} → {entry['landmark_id']}")
+        except Exception as e:
+            print(f"Warning: failed to hash {entry['filename']}: {e}")
+    return hashes
+
+
+REFERENCE_HASHES = load_reference_hashes()
+HASH_THRESHOLD = 10
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 groq_client = None
@@ -82,11 +114,32 @@ def get_landmark_details(landmark_id: str, language: str = "ar"):
 
 @app.post("/api/recognize")
 async def recognize_landmark(req: RecognizeRequest):
-    if not groq_client:
-        raise HTTPException(status_code=503, detail="Groq API not configured")
-
     if not req.image or len(req.image) == 0:
         raise HTTPException(status_code=400, detail="No image provided")
+
+    if REFERENCE_HASHES:
+        try:
+            img_bytes = base64.b64decode(req.image)
+            incoming_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+            incoming_hash = imagehash.phash(incoming_img)
+            for ref in REFERENCE_HASHES:
+                distance = incoming_hash - ref["hash"]
+                print(f"Hash distance to {ref['filename']}: {distance}")
+                if distance <= HASH_THRESHOLD:
+                    matched_id = ref["landmark_id"]
+                    print(f"Fingerprint match: {ref['filename']} → {matched_id} (distance={distance})")
+                    landmark = next((lm for lm in LANDMARKS if lm["id"] == matched_id), None)
+                    if landmark:
+                        return {
+                            "recognized": True,
+                            "landmark": landmark,
+                            "language": req.language
+                        }
+        except Exception as e:
+            print(f"Hash matching error (falling through to AI): {e}")
+
+    if not groq_client:
+        raise HTTPException(status_code=503, detail="Groq API not configured")
 
     try:
         print("Sending image to Groq Vision...")
@@ -230,6 +283,7 @@ async def startup_event():
     print(f"Athar API started")
     print(f"Loaded {len(LANDMARKS)} landmarks")
     print(f"Groq API: {'Configured' if groq_client else 'Not configured'}")
+    print(f"Reference fingerprints loaded: {len(REFERENCE_HASHES)}")
     if FRONTEND_DIST.exists():
         print(f"Serving frontend from {FRONTEND_DIST}")
     else:
