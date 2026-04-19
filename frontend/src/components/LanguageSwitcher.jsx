@@ -6,7 +6,7 @@ export default function LanguageSwitcher({ lang, setLang }) {
           <img
             src="/athar-logo.png"
             alt="أثر"
-            className="h-9 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
         </div>
 
